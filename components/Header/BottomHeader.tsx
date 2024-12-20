@@ -5,6 +5,7 @@ import { logo } from "@/assets";
 import Link from "next/link";
 import { NavArray } from "@/constants";
 import { IoMdArrowForward } from "react-icons/io";
+import MobileNavigation from "../MobileNavigation";
 
 const BottomHeader = () => {
   return (
@@ -44,7 +45,7 @@ const BottomHeader = () => {
           </Link>
         </div>
         <div className=" inline-flex lg:hidden">
-          <p>MenuBar</p>
+          <MobileNavigation />
         </div>
       </Container>
     </div>
