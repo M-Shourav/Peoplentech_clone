@@ -28,7 +28,7 @@ const Social = [
 
 const TopHeader = () => {
   return (
-    <div className="w-full bg-lightSky py-3 text-white">
+    <div className="hidden md:inline-block w-full bg-lightSky py-3 text-white">
       <Container className="h-full flex items-center gap-5 justify-between">
         <div className="flex items-center gap-x-5 text-xs md:text-sm">
           <p className="flex items-center gap-x-1">

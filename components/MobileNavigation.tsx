@@ -1,6 +1,6 @@
 "use client";
-import { logo } from "@/assets";
 import { NavArray } from "@/constants";
+import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -24,7 +24,7 @@ const MobileNavigation = () => {
         onClick={handleHamburger}
         className={`${
           isOpen
-            ? "fixed top-0 left-0 w-[85%] h-screen p-10 bg-white z-50 duration-700 ease-in-out"
+            ? "fixed top-0 left-0 w-[85%] h-screen px-6 py-4 bg-white z-50 duration-1000 ease-in-out"
             : "fixed top-0 left-[-100%] duration-1000 ease-in-out"
         }`}
       >
@@ -45,15 +45,16 @@ const MobileNavigation = () => {
               <IoMdClose />
             </button>
           </div>
-          <div className="flex flex-col gap-y-3">
+          <div className="w-full flex flex-col gap-y-3">
             {NavArray?.map((item) => (
-              <Link
+              <div
                 key={item?.name}
-                href={item?.href}
-                className="text-base font-semibold"
+                className="w-full -mb-1 border-b border-b-black/20"
               >
-                {item?.name}
-              </Link>
+                <Link href={item?.href} className="text-base font-semibold">
+                  {item?.name}
+                </Link>
+              </div>
             ))}
             <Link
               href={"/"}

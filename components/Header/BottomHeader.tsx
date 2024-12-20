@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../Container";
 import Image from "next/image";
-import { logo } from "@/assets";
+import { logo } from "@/public/assets";
 import Link from "next/link";
 import { NavArray } from "@/constants";
 import { IoMdArrowForward } from "react-icons/io";

@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       {/* header */}
       <Header />
       {/* banner */}
+      <HeroSection />
       {/* categories */}
       {/* course  */}
       {/* services */}
