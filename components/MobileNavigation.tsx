@@ -13,7 +13,7 @@ const MobileNavigation = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="inline-flex md:hidden">
+    <div className="inline-flex lg:hidden">
       <button
         onClick={handleHamburger}
         className="text-3xl font-semibold hover:text-lightSky duration-300"

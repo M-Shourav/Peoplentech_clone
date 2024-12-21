@@ -23,7 +23,7 @@ const certificated = [
 const Certificate = () => {
   return (
     <div className="w-full">
-      <Container className="max-w-6xl   mb-20 rounded-md bg-white shadow-custom-sm py-6 px-4">
+      <Container className="max-w-6xl rounded-md bg-white shadow-custom-sm py-6 px-4">
         <div className="flex flex-col items-start md:flex-row gap-3 md:gap-5">
           {certificated?.map((item) => (
             <div key={item?.id} className="flex flex-col">

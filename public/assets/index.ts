@@ -13,8 +13,26 @@ import p7 from "@/public/assets/images/student/partner8.jpg";
 import p8 from "@/public/assets/images/student/partner9.jpg";
 import p9 from "@/public/assets/images/student/partner10.jpg";
 import p10 from "@/public/assets/images/student/partner11.jpg";
+import scholarshipImg from "@/public/assets/images/carousel/schollar.png";
+import MachineImg from "@/public/assets/images/carousel/machine.png";
+import developerImg from "@/public/assets/images/carousel/developer.png";
+import dataBaseImg from "@/public/assets/images/carousel/data-server.png";
+import networkImg from "@/public/assets/images/carousel/data-server.png";
+import securityImg from "@/public/assets/images/carousel/technology.png";
+import graphicsImg from "@/public/assets/images/carousel/design.png";
+import digitalImg from "@/public/assets/images/carousel/content-strategy.png";
+import basicComputerImg from "@/public/assets/images/carousel/student.png";
 
 export {
+  scholarshipImg,
+  dataBaseImg,
+  MachineImg,
+  developerImg,
+  securityImg,
+  networkImg,
+  graphicsImg,
+  digitalImg,
+  basicComputerImg,
   p1,
   p2,
   p3,

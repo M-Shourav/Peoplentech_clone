@@ -1,4 +1,6 @@
+"use client";
 import { heroLogo, p1, p10, p2, p3, p4, p6, p7, p8, p9 } from "@/public/assets";
+import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -46,8 +48,18 @@ const images = [
 const Photo = () => {
   return (
     <div>
-      <div className="relative">
-        <Image src={heroLogo} alt="heroLogo" />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: 1,
+          transition: {
+            duration: 1,
+            delay: 0.5,
+          },
+        }}
+        className="relative"
+      >
+        <Image src={heroLogo} alt="heroLogo" quality={100} priority={true} />
         <div
           className=" absolute top-[32%] left-0 hidden md:inline-flex items-center justify-center rounded-md gap-x-2
        bg-white max-w-64 h-12 shadow-md px-4"
@@ -80,12 +92,12 @@ const Photo = () => {
                 key={item?.id}
                 src={item?.images}
                 alt="student-images"
-                className="w-5 h-5 rounded-full object-cover leading-tight"
+                className=" w-5 h-5 rounded-full object-cover leading-tight"
               />
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
