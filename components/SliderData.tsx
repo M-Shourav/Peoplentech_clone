@@ -18,7 +18,6 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-import Title from "./Title";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import Link from "next/link";
 

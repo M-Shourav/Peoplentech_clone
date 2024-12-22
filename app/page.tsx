@@ -1,3 +1,4 @@
+import CareerCourse from "@/components/CareerCourse";
 import Certificate from "@/components/Certificate";
 import CourseCategory from "@/components/CourseCategory";
 import Header from "@/components/Header/Header";
@@ -15,6 +16,7 @@ export default function Home() {
       {/* categories */}
       <CourseCategory />
       {/* course  */}
+      <CareerCourse />
       {/* services */}
       {/* our student */}
       {/* Free seminar */}
