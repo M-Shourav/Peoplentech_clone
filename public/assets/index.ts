@@ -22,6 +22,18 @@ import securityImg from "@/public/assets/images/carousel/technology.png";
 import graphicsImg from "@/public/assets/images/carousel/design.png";
 import digitalImg from "@/public/assets/images/carousel/content-strategy.png";
 import basicComputerImg from "@/public/assets/images/carousel/student.png";
+import assignment from "@/public/assets/images/facilities/assignment.png";
+import certificate02 from "@/public/assets/images/facilities/certificate02.png";
+import customer_services from "@/public/assets/images/facilities/customer-service.png";
+import feedback from "@/public/assets/images/facilities/feedback.png";
+import interview from "@/public/assets/images/facilities/interview.png";
+import jobs from "@/public/assets/images/facilities/jobs.png";
+import live from "@/public/assets/images/facilities/live.png";
+import recorded from "@/public/assets/images/facilities/recorded video.png";
+import requirement from "@/public/assets/images/facilities/requirements.png";
+import speech_bubble from "@/public/assets/images/facilities/speech-bubble.png";
+import supportImg from "@/public/assets/images/facilities/support.png";
+import freelanceImg from "@/public/assets/images/facilities/freelancing.svg";
 
 export {
   scholarshipImg,
@@ -48,4 +60,16 @@ export {
   certificate,
   membership,
   partner,
+  assignment,
+  certificate02,
+  customer_services,
+  feedback,
+  interview,
+  jobs,
+  live,
+  recorded,
+  requirement,
+  speech_bubble,
+  supportImg,
+  freelanceImg,
 };

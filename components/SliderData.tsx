@@ -86,7 +86,7 @@ const SliderArray = [
     image: basicComputerImg,
   },
 ];
-const Slider = () => {
+const SliderData = () => {
   const handleSlideChange = (index: number) => {
     handleSlideChange(index);
   };
@@ -154,4 +154,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default SliderData;

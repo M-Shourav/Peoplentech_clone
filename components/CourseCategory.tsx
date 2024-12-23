@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
-import Slider from "./SliderData";
 import Heading from "./Heading";
+import SliderData from "./SliderData";
 
 const CourseCategory = () => {
   return (
@@ -10,7 +10,7 @@ const CourseCategory = () => {
         title="Career Accelerator Categories"
         subtitle="Fast-track your career with our Accelerator Courses—intensive, industry-focused programs designed to propel your professional growth"
       />
-      <Slider />
+      <SliderData />
     </Container>
   );
 };

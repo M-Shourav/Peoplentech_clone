@@ -1,8 +1,8 @@
-import React from "react";
 import Container from "./Container";
 import Heading from "./Heading";
 import { TbStackFilled } from "react-icons/tb";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+
 const TabsMenu = [
   {
     name: "All Courses",
@@ -54,20 +54,31 @@ function CareerCourse() {
         icon={<TbStackFilled />}
         smallTitle="Course"
       />
-      <div className="w-full">
-        <Tabs className="flex flex-col md:flex-row gap-5">
-          <TabsList className="border-b border-b-black flex flex-col">
+      {/* course Carousel */}
+      {/* <div className="w-full">
+        <Tabs
+          defaultValue="allCourses"
+          className="flex flex-col gap-10 md:gap-20"
+        >
+          <TabsList
+            className="w-full md:w-fit h-full md:min-h-[43h]
+           grid grid-cols-2 md:grid-cols-4 place-items-start gap-5"
+          >
             {TabsMenu?.map((item) => (
-              <TabsTrigger key={item?.value} value={item?.value}>
+              <TabsTrigger
+                key={item?.value}
+                value={item?.value}
+                className="w-full bg-gray-100 data-[state=active]:text-orange-600/85 font-semibold text-xs md:text-base"
+              >
                 {item?.name}
               </TabsTrigger>
             ))}
           </TabsList>
-          <TabsContent value="allCourses">
-            <p>all Courses</p>
+          <TabsContent value="allCourses" className="">
+            <p>All Courses</p>
           </TabsContent>
         </Tabs>
-      </div>
+      </div> */}
     </Container>
   );
 }
