@@ -34,6 +34,7 @@ import requirement from "@/public/assets/images/facilities/requirements.png";
 import speech_bubble from "@/public/assets/images/facilities/speech-bubble.png";
 import supportImg from "@/public/assets/images/facilities/support.png";
 import freelanceImg from "@/public/assets/images/facilities/freelancing.svg";
+import facilities_banner from "@/public/assets/images/facilities/facilities-banner.png";
 
 export {
   scholarshipImg,
@@ -72,4 +73,5 @@ export {
   speech_bubble,
   supportImg,
   freelanceImg,
+  facilities_banner,
 };

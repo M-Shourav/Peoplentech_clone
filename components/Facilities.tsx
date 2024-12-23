@@ -13,13 +13,6 @@ const Facilities = () => {
     ? FacilitiesArray
     : FacilitiesArray.slice(0, 6);
 
-  const handleClick = () => {
-    if (showData) {
-      setShowData(false);
-    } else {
-      setShowData(true);
-    }
-  };
   return (
     <div
       className="w-full flex flex-col items-center justify-between gap-5
@@ -80,15 +73,19 @@ const Facilities = () => {
             </div>
           ))}
         </div>
-        {/* <Link href={"/facilities"} onClick={handleClick}>
-          Show More
-        </Link> */}
-        <button
-          onClick={handleClick}
-          className="flex items-center justify-center gap-1 bg-lightSky"
-        >
-          Show More <MdOutlineArrowForwardIos />
-        </button>
+        <div className="w-full flex items-center justify-center">
+          <Link
+            href={"/facilities"}
+            className="w-40 h-12 flex items-center justify-center gap-1
+           bg-skyColor text-base md:text-lg text-white font-semibold
+            rounded-md tracking-wide hover:bg-lightSky duration-300"
+          >
+            Show More
+            <span>
+              <MdOutlineArrowForwardIos />
+            </span>
+          </Link>
+        </div>
       </Container>
     </div>
   );
