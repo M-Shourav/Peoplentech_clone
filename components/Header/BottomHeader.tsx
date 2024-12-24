@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Container from "../Container";
 import Image from "next/image";
@@ -6,8 +7,10 @@ import Link from "next/link";
 import { NavArray } from "@/constants";
 import { IoMdArrowForward } from "react-icons/io";
 import MobileNavigation from "../MobileNavigation";
+import { usePathname } from "next/navigation";
 
 const BottomHeader = () => {
+  const pathName = usePathname();
   return (
     <div className="w-full h-16 shadow-lg bg-white/90">
       <Container className="h-full flex items-center justify-between gap-5">
@@ -27,7 +30,9 @@ const BottomHeader = () => {
             <Link
               key={item?.name}
               href={item?.href}
-              className="text-[15px] font-semibold tracking-wide hover:text-lightSky duration-300"
+              className={`text-[15px] font-semibold tracking-wide hover:text-lightSky duration-300 ${
+                item?.href === pathName && "text-skyColor"
+              }`}
             >
               {item?.name}
             </Link>

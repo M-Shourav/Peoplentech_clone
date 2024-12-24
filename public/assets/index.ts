@@ -35,9 +35,12 @@ import speech_bubble from "@/public/assets/images/facilities/speech-bubble.png";
 import supportImg from "@/public/assets/images/facilities/support.png";
 import freelanceImg from "@/public/assets/images/facilities/freelancing.svg";
 import facilities_banner from "@/public/assets/images/facilities/facilities-banner.png";
-
+import success_bannerImg from "@/public/assets/images/Success-student-banner.png";
+import paymentImg from "@/public/assets/images/SSLCommerz-Pay-With-logo.png";
 export {
   scholarshipImg,
+  success_bannerImg,
+  paymentImg,
   dataBaseImg,
   MachineImg,
   developerImg,

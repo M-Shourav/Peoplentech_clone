@@ -7,6 +7,7 @@ import {
   interview,
   jobs,
   live,
+  logo,
   recorded,
   requirement,
   speech_bubble,
@@ -36,7 +37,7 @@ export const NavArray = [
   },
   {
     name: "Success Stories",
-    href: "/",
+    href: "/success",
   },
   {
     name: "Services",
@@ -157,3 +158,63 @@ export const videoLink = [
     link: "https://www.youtube.com/embed/S5ky_2p12IU?si=5dZIFlsKfHm9qeiS",
   },
 ];
+
+export const footerArray = {
+  webBio: {
+    images: logo,
+    des: "Established with the goal of fostering success, PeopleNTech Institute of IT is a trusted institution. Over the past enduring nine years since its establishment, it has contributed to the development of Digital Bangladesh and achieved multifaceted success through trans-formative changes.",
+  },
+  quickLinks: {
+    title: "Quick Links",
+    role: [
+      {
+        name: "Join Free Seminars",
+        href: "/",
+      },
+      {
+        name: "Success Story",
+        href: "/",
+      },
+      {
+        name: "Privacy Policy",
+        href: "/",
+      },
+      {
+        name: "Refund Policy",
+        href: "/",
+      },
+      {
+        name: "Terms and Conditions",
+        href: "/",
+      },
+      {
+        name: "Blog",
+        href: "/",
+      },
+    ],
+  },
+  aboutUs: {
+    title: "About Us",
+    role: [
+      {
+        name: "About Us",
+        href: "/",
+      },
+      {
+        name: "Our Team",
+        href: "/",
+      },
+      {
+        name: "Our Mentors",
+        href: "/",
+      },
+      {
+        name: "Apply for Trainer",
+        href: "/",
+      },
+    ],
+  },
+  contactUs: {
+    title: "Contact Us",
+  },
+};

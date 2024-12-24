@@ -11,7 +11,7 @@ const Facilities = () => {
   return (
     <div
       className="w-full flex flex-col items-center justify-between gap-5
-     bg-red-100/50"
+     bg-red-100/50 mb-10"
     >
       <Banner>
         <div className="w-full py-6 flex flex-col items-start gap-5">
@@ -37,7 +37,7 @@ const Facilities = () => {
             <h2 className="text-lg md:text-2xl font-semibold">
               What are the benefits of enrolling in our course?
             </h2>
-            <p className="max-w-[600px] text-xs md:text-base text-white/80">
+            <p className="max-w-[600px] text-xs md:text-base mb-10 text-white/80">
               At PeopleNTech Institute of IT, our commitment extends beyond
               training sessions. We are prepared to assist our students with any
               requirement they may have, at any time, not only limited to

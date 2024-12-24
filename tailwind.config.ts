@@ -15,6 +15,7 @@ export default {
         shadowColor: "#fcfbf8",
         lightText: "#e8235f",
         headingText: "#eb334e",
+        footerBg: "#191D28",
       },
       backgroundImage: {
         "banner-image": "url('/assets/images/banner-image.jpeg')",

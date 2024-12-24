@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .text-outline {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+}
 :root {
   --font-inter: "Inter", sans-serif;
 }
