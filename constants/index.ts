@@ -21,19 +21,19 @@ export const NavArray = [
   },
   {
     name: "About",
-    href: "/",
+    href: "/about",
   },
   {
     name: "Courses",
-    href: "/",
+    href: "/courses",
   },
   {
     name: "Upcoming Batch",
-    href: "/",
+    href: "/batch",
   },
   {
     name: "Join Seminars",
-    href: "/",
+    href: "/seminars",
   },
   {
     name: "Success Stories",
@@ -41,11 +41,11 @@ export const NavArray = [
   },
   {
     name: "Services",
-    href: "/",
+    href: "/services",
   },
   {
     name: "Contact",
-    href: "/",
+    href: "/contact",
   },
 ];
 
