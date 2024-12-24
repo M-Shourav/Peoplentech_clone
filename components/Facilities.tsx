@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
+import SuccessStory from "./SuccessStory";
 const Facilities = () => {
   const [showData, setShowData] = useState(false);
   const displayProject = showData
@@ -16,16 +17,17 @@ const Facilities = () => {
   return (
     <div
       className="w-full flex flex-col items-center justify-between gap-5
-     bg-red-100/50 p-10 "
+     bg-gradient-to-t from-slate-100/80 to-pink-100/80 p-10 "
     >
-      <Container className="w-full flex flex-col gap-5">
+      <Container className="w-full flex flex-col gap-5 md:gap-10">
         <Heading
           smallTitle="Special Services"
           icon={<PiShoppingBagOpenFill />}
           title="What are the benefits of enrolling in our course?"
           subtitle="At PeopleNTech Institute of IT, our commitment extends beyond training sessions. We are prepared to assist our students with any requirement they may have, at any time, not only limited to classroom instruction."
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        {/*support Page */}
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           {displayProject?.map((item) => (
             <div
               key={item?._id}
@@ -73,6 +75,7 @@ const Facilities = () => {
             </div>
           ))}
         </div>
+        {/* show more button */}
         <div className="w-full flex items-center justify-center">
           <Link
             href={"/facilities"}
@@ -86,6 +89,7 @@ const Facilities = () => {
             </span>
           </Link>
         </div>
+        <SuccessStory />
       </Container>
     </div>
   );

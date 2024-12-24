@@ -122,3 +122,38 @@ export const FacilitiesArray = [
     des: "Many times students do not understand some topics in the class, for them there is the benefit of class videos. So now students can take class with peace of mind. You can solve your problem yourself by watching the video of any difficulty.",
   },
 ];
+
+export const videoLink = [
+  {
+    id: 1,
+    link: "https://www.youtube.com/embed/ec8I4GI5ULo?si=nrsg-nC10rCLdWxz",
+  },
+  {
+    id: 2,
+    link: "https://www.youtube.com/embed/GFSQYBZ7-yU?si=4kcl8vR5lSz0gk5B",
+  },
+  {
+    id: 3,
+    link: "https://www.youtube.com/embed/VEjAVNvh-0Y?si=ax7oY7s2oUsXDACW",
+  },
+  {
+    id: 4,
+    link: "https://www.youtube.com/embed/iTIH5s7wZkE?si=OzqApylT6nQ-Z8Z2",
+  },
+  {
+    id: 5,
+    link: "https://www.youtube.com/embed/7JmGdV50Lxo?si=IlC6ZJ6U3EdEt0iF",
+  },
+  {
+    id: 6,
+    link: "https://www.youtube.com/embed/m4WxQahNkKk?si=KqzA-kpDgdN7TQ_K",
+  },
+  {
+    id: 7,
+    link: "https://www.youtube.com/embed/71XgfuAWu9Y?si=KgVkVFvB4ln8Gxc3",
+  },
+  {
+    id: 8,
+    link: "https://www.youtube.com/embed/S5ky_2p12IU?si=5dZIFlsKfHm9qeiS",
+  },
+];
