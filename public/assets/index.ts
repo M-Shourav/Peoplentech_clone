@@ -37,9 +37,18 @@ import freelanceImg from "@/public/assets/images/facilities/freelancing.svg";
 import facilities_banner from "@/public/assets/images/facilities/facilities-banner.png";
 import success_bannerImg from "@/public/assets/images/Success-student-banner.png";
 import paymentImg from "@/public/assets/images/SSLCommerz-Pay-With-logo.png";
+import SeminarsImg from "@/public/assets/images/Seminar.jpg";
+import seminars_1 from "@/public/assets/images/seminars/01.jpg";
+import seminars_2 from "@/public/assets/images/seminars/02.jpg";
+import seminars_3 from "@/public/assets/images/seminars/03.jpg";
+
 export {
   scholarshipImg,
   success_bannerImg,
+  SeminarsImg,
+  seminars_1,
+  seminars_2,
+  seminars_3,
   paymentImg,
   dataBaseImg,
   MachineImg,

@@ -21,6 +21,7 @@ const Facilities = () => {
     >
       <Container className="w-full flex flex-col gap-5 md:gap-10">
         <Heading
+          className="max-w-4xl"
           smallTitle="Special Services"
           icon={<PiShoppingBagOpenFill />}
           title="What are the benefits of enrolling in our course?"
