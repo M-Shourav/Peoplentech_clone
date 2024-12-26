@@ -5,14 +5,7 @@ import { HiOutlineStatusOnline } from "react-icons/hi";
 import Link from "next/link";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import Image from "next/image";
-import {
-  seminars_1,
-  seminars_2,
-  seminars_3,
-  SeminarsImg,
-} from "@/public/assets";
-import Title from "./Title";
-import { BiSolidPhoneCall } from "react-icons/bi";
+import { SeminarsImg } from "@/public/assets";
 import StoryPeopleNTech from "./StoryPeopleNTech";
 
 const Seminars = () => {

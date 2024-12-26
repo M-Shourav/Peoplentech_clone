@@ -4,10 +4,12 @@ import BottomHeader from "./BottomHeader";
 
 const Header = () => {
   return (
-    <div className="w-full">
+    <>
       <TopHeader />
-      <BottomHeader />
-    </div>
+      <div className=" sticky top-0 bg-white z-50">
+        <BottomHeader />
+      </div>
+    </>
   );
 };
 

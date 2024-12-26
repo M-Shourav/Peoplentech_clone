@@ -1,17 +1,32 @@
 import {
   assignment,
+  BdpoliticaImg,
+  BdStudioImg,
+  CbbLImg,
   certificate02,
   customer_services,
+  CyberImg,
   feedback,
+  FemaleInformationImg,
+  FooterLogo,
   freelanceImg,
+  FrontiaImg,
+  GtsImg,
   interview,
+  JobResumeImg,
   jobs,
   live,
-  logo,
+  NrbImg,
+  PntdsImg,
   recorded,
   requirement,
+  SmartIllusionImg,
   speech_bubble,
   supportImg,
+  UpsCaleImg,
+  UsaImg,
+  VolumeCoderImg,
+  WustImg,
 } from "@/public/assets";
 
 export const NavArray = [
@@ -159,9 +174,87 @@ export const videoLink = [
   },
 ];
 
+export const ConcernArray = [
+  {
+    id: "01",
+    images: NrbImg,
+    href: "https://nrbc.tv/",
+  },
+  {
+    id: "02",
+    images: WustImg,
+    href: "https://www.wust.edu/",
+  },
+  {
+    id: "03",
+    images: UsaImg,
+    href: "https://higherstudyusa.com/",
+  },
+  {
+    id: "04",
+    images: PntdsImg,
+    href: "https://www.pntdns.com/",
+  },
+  {
+    id: "05",
+    images: VolumeCoderImg,
+    href: "https://www.volumecoder.com/",
+  },
+  {
+    id: "06",
+    images: JobResumeImg,
+    href: "https://jobnresume.com/",
+  },
+  {
+    id: "07",
+    images: BdStudioImg,
+    href: "https://bdclippingstudio.com/",
+  },
+  {
+    id: "08",
+    images: CbbLImg,
+    href: "https://cbbl.com.bd/",
+  },
+  {
+    id: "09",
+    images: SmartIllusionImg,
+    href: "https://smartillusion.com/",
+  },
+  {
+    id: "10",
+    images: UpsCaleImg,
+    href: "https://www.upscalelearning.com/",
+  },
+  {
+    id: "11",
+    images: CyberImg,
+    href: "https://care247.tech/",
+  },
+  {
+    id: "12",
+    images: FrontiaImg,
+    href: "https://frontia.com.bd/",
+  },
+  {
+    id: "13",
+    images: GtsImg,
+    href: "https://gts365.com/",
+  },
+  {
+    id: "14",
+    images: FemaleInformationImg,
+    href: "https://fiit.com.bd/",
+  },
+  {
+    id: "15",
+    images: BdpoliticaImg,
+    href: "https://bdpolitica.com/",
+  },
+];
+
 export const footerArray = {
   webBio: {
-    images: logo,
+    images: FooterLogo,
     des: "Established with the goal of fostering success, PeopleNTech Institute of IT is a trusted institution. Over the past enduring nine years since its establishment, it has contributed to the development of Digital Bangladesh and achieved multifaceted success through trans-formative changes.",
   },
   quickLinks: {

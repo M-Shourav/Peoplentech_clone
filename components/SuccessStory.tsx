@@ -16,7 +16,7 @@ const SuccessStory = () => {
         title="Success stories of our students"
         subtitle="The success of our students has fueled our journey of nine years, inspiring us along the way. With the guidance of skilled mentors, we have seen countless individuals achieve success, elevating PeopleNTech Institute of IT to an unparalleled status."
       />
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         {disPlayVideo?.map((item) => (
           <div key={item?.id}>
             <iframe

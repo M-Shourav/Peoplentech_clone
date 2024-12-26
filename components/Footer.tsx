@@ -22,7 +22,13 @@ const Footer = () => {
           {/* images */}
           <div className="w-full flex flex-col gap-5 items-start text-white bg-transparent">
             <Link href={"/"} className="w-64">
-              <Image src={footerArray?.webBio.images} alt="logo" />
+              <Image
+                src={footerArray?.webBio.images}
+                alt="logo"
+                width={200}
+                quality={100}
+                priority={true}
+              />
             </Link>
             <div className="w-full flex flex-col gap-5">
               <p className="text-xs md:text-base text-gray-400">

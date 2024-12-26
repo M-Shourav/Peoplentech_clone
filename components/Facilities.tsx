@@ -7,7 +7,6 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
-import SuccessStory from "./SuccessStory";
 const Facilities = () => {
   const [showData, setShowData] = useState(false);
   const displayProject = showData
@@ -90,7 +89,6 @@ const Facilities = () => {
             </span>
           </Link>
         </div>
-        <SuccessStory />
       </Container>
     </div>
   );

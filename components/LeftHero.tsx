@@ -1,5 +1,3 @@
-import { certificate } from "@/public/assets";
-import Image from "next/image";
 import Link from "next/link";
 import { BsBookHalf } from "react-icons/bs";
 import { FaTrophy } from "react-icons/fa";
@@ -16,7 +14,7 @@ const LeftHero = () => {
         <span className="text-lg text-lightSky">
           <LuCopyCheck />
         </span>
-        <p className="text-sm md:text-lg font-semibold text-lightSky">
+        <p className="text-sm md:text-base font-semibold text-lightSky">
           Global Leader in Professional Skill Development & Job Placement
         </p>
       </div>
