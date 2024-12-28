@@ -63,8 +63,78 @@ import WustPImg from "@/public/assets/images/clients/_wust-partner.png";
 import IsoImg from "@/public/assets/images/clients/Iso.png";
 import CouncilImg from "@/public/assets/images/clients/council ATC-Logo.png";
 import BitmImg from "@/public/assets/images/clients/bitm.png";
+import FreelancingCrhImg from "@/public/assets/images/Courses/freelancing_Course.jpg";
+import SpScholarshipItImg from "@/public/assets/images/Courses/CEH.jpg";
+import SpScholarshipDmImg from "@/public/assets/images/Courses/Speacial_Schoolarship.jpg";
+import SpScholarshipGDImg from "@/public/assets/images/Courses/gd-1.jpg";
+import ComputerFnImg from "@/public/assets/images/Courses/Computer_fundamental.jpeg";
+import SoftwareTestImg from "@/public/assets/images/Courses/ST.webp";
+import oracleImg from "@/public/assets/images/Courses/2024-06-12-1c2807_oracle.webp";
+import DataAnalyticsImg from "@/public/assets/images/Courses/data-analytics.webp";
+import WebDPImg from "@/public/assets/images/Courses/web-development.webp";
+import AspNetImg from "@/public/assets/images/Courses/asp.webp";
+import FlutterImg from "@/public/assets/images/Courses/flutter-&-Dart.webp";
+import PythonDjImg from "@/public/assets/images/Courses/python-&-DJango.webp";
+import webDvpImg from "@/public/assets/images/Courses/PHP-&-Laravel.webp";
+import ZendImg from "@/public/assets/images/Courses/zend.jpeg";
+import CyberSCImg from "@/public/assets/images/Courses/cyber-security.webp";
+import NetworkAdImg from "@/public/assets/images/Courses/2024-06-12-989b12_NSA.webp";
+import GraphicsAvImg from "@/public/assets/images/Courses/2024-06-12-f2bf4a_GEA.webp";
+import MernStImg from "@/public/assets/images/Courses/2024-06-12-58cb62_MERN.webp";
+import ciscoCRImg from "@/public/assets/images/Courses/2024-06-12-48ec1e_CYAN.webp";
+import ciscoCRNImg from "@/public/assets/images/Courses/2024-06-12-0ddb30_CCNP.webp";
+import LinuxImg from "@/public/assets/images/Courses/2024-08-02-86d1c0_Gfb4uqr3lVJoFZAzhwINa6Rqxy9n8ojRK4J95d8p.jpeg";
+import McsaImg from "@/public/assets/images/Courses/2024-06-12-989b12_NSA.webp";
+import CEHImg from "@/public/assets/images/Courses/2024-03-02-58b86d_2024-02-03-a4fcd0_ryociYUoynVZqMSKIimZdaHeMwxAEc9IcOXRyJXE.jpg";
+import CisaImg from "@/public/assets/images/Courses/2024-06-12-6273f2_CISA.webp";
+import PmpImg from "@/public/assets/images/Courses/2024-07-26-8429b1_CYFgIXi8SDWvuJINcZIOvpMy6NblpXAGpabIriYc.jpeg";
+import OperatingSytImg from "@/public/assets/images/Courses/2024-08-02-0b7dd0_operating-systems.jpeg";
+import networkSAImg from "@/public/assets/images/Courses/2024-08-02-c287ec_Secure-Architecture-is-Crucial-in-a-Business-System.jpg";
+import ApplicationImg from "@/public/assets/images/Courses/2024-08-02-93b4af_images (1).jpg";
+import CyberSecurityImg from "@/public/assets/images/Courses/2024-08-02-4a4684_1111111111111111111.jpg";
+import CyberThreadImg from "@/public/assets/images/Courses/2024-08-02-4ed823_AdobeStock_665949150.jpg";
+import CloudComputingImg from "@/public/assets/images/Courses/2024-08-02-ed6991_Cloud-Computing-Security.jpg";
+import DigitalForensicImg from "@/public/assets/images/Courses/2024-08-02-4bfdbf_Types-of-Digital-Forensics.jpg";
+import InformationSSImg from "@/public/assets/images/Courses/2024-08-02-47872c_b15b005f5ef7.png";
+import CreativeGDImg from "@/public/assets/images/Courses/2024-06-12-77f04e_GD.webp";
+import AdvanceDMImg from "@/public/assets/images/Courses/2024-06-12-419bba_dm.webp";
 
 export {
+  FreelancingCrhImg,
+  SpScholarshipDmImg,
+  SpScholarshipItImg,
+  SpScholarshipGDImg,
+  ComputerFnImg,
+  SoftwareTestImg,
+  oracleImg,
+  DataAnalyticsImg,
+  WebDPImg,
+  AspNetImg,
+  FlutterImg,
+  PythonDjImg,
+  webDvpImg,
+  ZendImg,
+  CyberSCImg,
+  NetworkAdImg,
+  GraphicsAvImg,
+  MernStImg,
+  ciscoCRImg,
+  ciscoCRNImg,
+  LinuxImg,
+  McsaImg,
+  CEHImg,
+  PmpImg,
+  CisaImg,
+  OperatingSytImg,
+  networkSAImg,
+  ApplicationImg,
+  CyberSecurityImg,
+  CyberThreadImg,
+  CloudComputingImg,
+  DigitalForensicImg,
+  InformationSSImg,
+  CreativeGDImg,
+  AdvanceDMImg,
   ICTImg,
   NdsaImg,
   WustPImg,
