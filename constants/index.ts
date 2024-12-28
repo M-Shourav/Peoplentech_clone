@@ -37,6 +37,10 @@ export const NavArray = [
   {
     name: "About",
     href: "/about",
+    subMenu: [
+      { name: "Our Team", href: "/about/our-team" },
+      { name: "Our Mentor", href: "/about/our-mentor" },
+    ],
   },
   {
     name: "Courses",

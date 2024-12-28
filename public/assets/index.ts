@@ -81,7 +81,6 @@ import CyberSCImg from "@/public/assets/images/Courses/cyber-security.webp";
 import NetworkAdImg from "@/public/assets/images/Courses/2024-06-12-989b12_NSA.webp";
 import GraphicsAvImg from "@/public/assets/images/Courses/2024-06-12-f2bf4a_GEA.webp";
 import MernStImg from "@/public/assets/images/Courses/2024-06-12-58cb62_MERN.webp";
-import ciscoCRImg from "@/public/assets/images/Courses/2024-06-12-48ec1e_CYAN.webp";
 import ciscoCRNImg from "@/public/assets/images/Courses/2024-06-12-0ddb30_CCNP.webp";
 import LinuxImg from "@/public/assets/images/Courses/2024-08-02-86d1c0_Gfb4uqr3lVJoFZAzhwINa6Rqxy9n8ojRK4J95d8p.jpeg";
 import McsaImg from "@/public/assets/images/Courses/2024-06-12-989b12_NSA.webp";
@@ -99,7 +98,19 @@ import InformationSSImg from "@/public/assets/images/Courses/2024-08-02-47872c_b
 import CreativeGDImg from "@/public/assets/images/Courses/2024-06-12-77f04e_GD.webp";
 import AdvanceDMImg from "@/public/assets/images/Courses/2024-06-12-419bba_dm.webp";
 
+// about-section-image
+import StoryImg from "@/public/assets/images/about-section/our-story-banner-02.png";
+import missionImg from "@/public/assets/images/about-section/Mission.png";
+import visionImg from "@/public/assets/images/about-section/Visions.png";
+import CeoImg from "@/public/assets/images/about-section/CEO-Message.png";
+import activitiesImg from "@/public/assets/images/about-section/activities.jpg";
+
 export {
+  StoryImg,
+  missionImg,
+  visionImg,
+  CeoImg,
+  activitiesImg,
   FreelancingCrhImg,
   SpScholarshipDmImg,
   SpScholarshipItImg,
@@ -118,7 +129,6 @@ export {
   NetworkAdImg,
   GraphicsAvImg,
   MernStImg,
-  ciscoCRImg,
   ciscoCRNImg,
   LinuxImg,
   McsaImg,

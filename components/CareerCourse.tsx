@@ -2,7 +2,6 @@
 import Container from "./Container";
 import Heading from "./Heading";
 import { PiStackSimpleBold } from "react-icons/pi";
-const TabsMenu = [{ name: "All Courses", content: [] }];
 
 const CareerCourse = () => {
   return (
