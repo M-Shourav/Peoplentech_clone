@@ -4,10 +4,13 @@ import Container from "./Container";
 import { ConcernArray } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
-
-const OurConcerns = () => {
+import { cn } from "@/lib/utils";
+interface Props {
+  className?: string;
+}
+const OurConcerns = ({ className }: Props) => {
   return (
-    <div className="w-full bg-slate-200 p-6 h-full">
+    <div className={cn("w-full bg-slate-200 p-6 h-full", className)}>
       <Container className="flex flex-col gap-7 md:gap-10">
         <Heading
           icon={<HiOutlineStatusOnline />}

@@ -105,7 +105,11 @@ import visionImg from "@/public/assets/images/about-section/Visions.png";
 import CeoImg from "@/public/assets/images/about-section/CEO-Message.png";
 import activitiesImg from "@/public/assets/images/about-section/activities.jpg";
 
+// main courses
+import ManiCourseImg from "@/public/assets/images/main-course-banner.png";
+
 export {
+  ManiCourseImg,
   StoryImg,
   missionImg,
   visionImg,

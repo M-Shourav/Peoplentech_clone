@@ -1,8 +1,12 @@
 import AboutStory from "@/components/AboutStory";
 import Container from "@/components/Container";
 import Heading from "@/components/Heading";
+import OurActivities from "@/components/OurActivities";
+import OurCeo from "@/components/OurCeo";
+import OurConcerns from "@/components/OurConcerns";
 import OurMission from "@/components/OurMission";
 import Title from "@/components/Title";
+import { logo } from "@/public/assets";
 import React from "react";
 
 const AboutPage = () => {
@@ -42,6 +46,14 @@ const AboutPage = () => {
       </div>
       <AboutStory />
       <OurMission />
+      <OurCeo />
+      <Heading
+        className="py-10 px-4"
+        title="Awards and Recognition"
+        subtitle="We provide quality services, international courses according to the needs of the times Ensuring modules and advanced environments. So the students PeopleEnTech IT is now on a journey to facilitate a modern career path best of all"
+      />
+      <OurActivities />
+      <OurConcerns className="bg-slate-200 py-10" />
     </div>
   );
 };
