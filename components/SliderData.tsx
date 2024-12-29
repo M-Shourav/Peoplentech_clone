@@ -86,6 +86,7 @@ const SliderArray = [
     image: basicComputerImg,
   },
 ];
+
 const SliderData = () => {
   const handleSlideChange = (index: number) => {
     handleSlideChange(index);

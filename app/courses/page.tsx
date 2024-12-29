@@ -1,8 +1,9 @@
 import Banner from "@/components/Banner";
 import Container from "@/components/Container";
+import ScholarshipCourses from "@/components/ScholarshipCourses";
 import SliderData from "@/components/SliderData";
 import Title from "@/components/Title";
-import { ManiCourseImg, success_bannerImg } from "@/public/assets";
+import { ManiCourseImg } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -10,7 +11,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const CoursePage = () => {
   return (
-    <div className="flex flex-col gap-5 md:gap-7 mb-10">
+    <div className="mb-10">
       <Banner>
         <div className="w-full py-6 flex flex-col items-start gap-5">
           <div className="flex items-center gap-1">
@@ -55,6 +56,18 @@ const CoursePage = () => {
           />
         </div>
       </Banner>
+      <Container className="w-full py-5 md:py-10 flex flex-col gap-10">
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">
+            Unlock your potential in the Courses section below
+          </Title>
+          <SliderData />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">Scholarship Courses</Title>
+          <ScholarshipCourses />
+        </div>
+      </Container>
     </div>
   );
 };

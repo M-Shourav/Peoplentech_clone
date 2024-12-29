@@ -4,24 +4,31 @@ import {
   BdStudioImg,
   CbbLImg,
   certificate02,
+  ComputerFnImg,
   customer_services,
   CyberImg,
   feedback,
   FemaleInformationImg,
   FooterLogo,
   freelanceImg,
+  FreelancingCrhImg,
   FrontiaImg,
   GtsImg,
   interview,
   JobResumeImg,
   jobs,
   live,
+  MachineImg,
   NrbImg,
   PntdsImg,
   recorded,
   requirement,
+  scholarshipImg,
   SmartIllusionImg,
   speech_bubble,
+  SpScholarshipDmImg,
+  SpScholarshipGDImg,
+  SpScholarshipItImg,
   supportImg,
   UpsCaleImg,
   UsaImg,
@@ -65,6 +72,59 @@ export const NavArray = [
   {
     name: "Contact",
     href: "/contact",
+  },
+];
+
+export const scholarshipArray = [
+  {
+    name: "Freelancing with Upwork/Fiverr Crash Course",
+    price: [
+      {
+        regularPrice: 10000,
+        discountPrice: 2000,
+      },
+    ],
+    images: FreelancingCrhImg,
+  },
+  {
+    name: "Online Training on It security & Ethical Hacking Professional",
+    price: [
+      {
+        regularPrice: 15000,
+        discountPrice: 4999,
+      },
+    ],
+    images: SpScholarshipItImg,
+  },
+  {
+    name: "Online Training on Advance Digital Marketing & SEO with Freelancing ",
+    price: [
+      {
+        regularPrice: 18000,
+        discountPrice: 4999,
+      },
+    ],
+    images: SpScholarshipDmImg,
+  },
+  {
+    name: "Online Training on Creative Graphics Design with Freelancing",
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 4999,
+      },
+    ],
+    images: SpScholarshipGDImg,
+  },
+  {
+    name: "Computer Fundamental & Troubleshooting Training",
+    price: [
+      {
+        regularPrice: 10000,
+        discountPrice: 2000,
+      },
+    ],
+    images: ComputerFnImg,
   },
 ];
 
