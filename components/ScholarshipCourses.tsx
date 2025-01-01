@@ -2,6 +2,7 @@ import { scholarshipArray } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { TbCurrencyTaka } from "react-icons/tb";
 
 const ScholarshipCourses = () => {
   return (
@@ -21,8 +22,12 @@ const ScholarshipCourses = () => {
             <div className="w-full bg-red-50 flex items-center justify-between px-4 py-5">
               {item?.price.map((item, index) => (
                 <div key={index} className="flex items-center gap-5">
-                  <p className="text-xl font-semibold">{item?.discountPrice}</p>
-                  <p className="text-lg font-medium line-through text-red-500">
+                  <p className="text-xl font-semibold flex items-center">
+                    <TbCurrencyTaka className="text-3xl -mt-1" />
+                    {item?.discountPrice}
+                  </p>
+                  <p className="flex items-center text-lg font-medium line-through text-red-500">
+                    <TbCurrencyTaka className="text-2xl -mt-1" />
                     {item?.regularPrice}
                   </p>
                 </div>

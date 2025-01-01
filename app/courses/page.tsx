@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Container from "@/components/Container";
+import DatabaseCourse from "@/components/DatabaseCourse";
 import ScholarshipCourses from "@/components/ScholarshipCourses";
 import SliderData from "@/components/SliderData";
 import Title from "@/components/Title";
@@ -66,6 +67,12 @@ const CoursePage = () => {
         <div className="flex flex-col gap-10">
           <Title className="text-lg md:text-3xl">Scholarship Courses</Title>
           <ScholarshipCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">
+            Database Management & Testing
+          </Title>
+          <DatabaseCourse />
         </div>
       </Container>
     </div>

@@ -7,6 +7,7 @@ import {
   ComputerFnImg,
   customer_services,
   CyberImg,
+  DataAnalyticsImg,
   feedback,
   FemaleInformationImg,
   FooterLogo,
@@ -19,10 +20,12 @@ import {
   jobs,
   live,
   NrbImg,
+  oracleImg,
   PntdsImg,
   recorded,
   requirement,
   SmartIllusionImg,
+  SoftwareTestImg,
   speech_bubble,
   SpScholarshipDmImg,
   SpScholarshipGDImg,
@@ -126,6 +129,41 @@ export const scholarshipArray = [
   },
 ];
 
+export const databaseCourseArray = [
+  {
+    name: "Certified Training Course on Software Testing and Quality Assurance",
+    images: SoftwareTestImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 18000,
+      },
+    ],
+    des: `Are you passionate about software testing and quality assurance? Our course on software testing & quality assurance can be your best choice. The "Software Testing and Quality Assurance" training course at PeopleNTech provides participants with comprehensive insights into the principles and practices of software testing. Covering a range of topics from testing methodologies to quality assurance processes, this course equips individuals with the skills needed to ensure the delivery of high-quality software products.`,
+  },
+  {
+    name: "Certified Oracle Database Administration DBA 19C Course",
+    images: oracleImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 18000,
+      },
+    ],
+    des: `Are you looking to skill up yourself in Oracle Database Administration certification course? Then our certified course on oracle database administration is for you! Our oracle training & certification course approach to mastering Oracle DBA concepts, techniques, and best practices. As the best oracle training & certification, you will get hands-on training with an updated course module and an Industry Expert mentor for becoming a certified oracle database professional in Bangladesh. This Oracle DBA training course is an intensive hands-on course designed to provide Oracle professionals with an in-depth understanding of the DBA features of Oracle, specific Oracle concepts and knowledge required for the OCP exam, and tips and techniques for passing the Oracle OCP exam on your first attempt.`,
+  },
+  {
+    name: "Data Analytics",
+    images: DataAnalyticsImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 10000,
+      },
+    ],
+    des: `This course provides a comprehensive introduction to the field of data analytics. It is designed for individuals who are interested in learning about the tools, techniques, and methodologies used to analyze large datasets and extract meaningful insights. By the end of the course, students will be equipped with the knowledge and skills necessary to apply data analytics in real-world scenarios, making them valuable assets in any industry that relies on data-driven decision making. Whether you’re a beginner looking to start a career in data analytics or a professional seeking to enhance your skills, this course offers a solid foundation in this rapidly growing field.`,
+  },
+];
 export const FacilitiesArray = [
   {
     _id: 1,
