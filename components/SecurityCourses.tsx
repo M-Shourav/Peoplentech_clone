@@ -1,15 +1,14 @@
-import { databaseCourseArray } from "@/constants";
+import { ProjectManagementArray } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { TbCurrencyTaka } from "react-icons/tb";
-const DatabaseCourse = () => {
+
+const SecurityCourses = () => {
   return (
-    <div
-      id="Database"
-      className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
-    >
-      {databaseCourseArray?.map((item) => (
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {ProjectManagementArray?.map((item) => (
         <div
           key={item?.name}
           className="flex flex-col justify-between border border-gray-200 hover:border-skyColor rounded-md"
@@ -17,7 +16,7 @@ const DatabaseCourse = () => {
           <div className="w-full">
             <Image
               src={item?.images}
-              alt="database-courses"
+              alt="security-courses"
               className="object-cover rounded-t-md"
               quality={100}
             />
@@ -42,8 +41,8 @@ const DatabaseCourse = () => {
             <Link
               href={"/registration"}
               className="text-base font-medium tracking-wider
-              text-skyColor hover:text-lightSky hover:underline 
-              hover:underline-offset-1 duration-300"
+            text-skyColor hover:text-lightSky hover:underline 
+            hover:underline-offset-1 duration-300"
             >
               Registration
             </Link>
@@ -70,4 +69,4 @@ const DatabaseCourse = () => {
   );
 };
 
-export default DatabaseCourse;
+export default SecurityCourses;

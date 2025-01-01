@@ -1,15 +1,14 @@
-import { databaseCourseArray } from "@/constants";
+import { NetworkCoursesArray } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { TbCurrencyTaka } from "react-icons/tb";
-const DatabaseCourse = () => {
+
+const NetworkCourses = () => {
   return (
-    <div
-      id="Database"
-      className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
-    >
-      {databaseCourseArray?.map((item) => (
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {NetworkCoursesArray?.map((item) => (
         <div
           key={item?.name}
           className="flex flex-col justify-between border border-gray-200 hover:border-skyColor rounded-md"
@@ -17,7 +16,7 @@ const DatabaseCourse = () => {
           <div className="w-full">
             <Image
               src={item?.images}
-              alt="database-courses"
+              alt="network-courses"
               className="object-cover rounded-t-md"
               quality={100}
             />
@@ -70,4 +69,4 @@ const DatabaseCourse = () => {
   );
 };
 
-export default DatabaseCourse;
+export default NetworkCourses;

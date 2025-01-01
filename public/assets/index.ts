@@ -97,7 +97,8 @@ import DigitalForensicImg from "@/public/assets/images/Courses/2024-08-02-4bfdbf
 import InformationSSImg from "@/public/assets/images/Courses/2024-08-02-47872c_b15b005f5ef7.png";
 import CreativeGDImg from "@/public/assets/images/Courses/2024-06-12-77f04e_GD.webp";
 import AdvanceDMImg from "@/public/assets/images/Courses/2024-06-12-419bba_dm.webp";
-
+import MicrosoftWbImg from "@/public/assets/images/Courses/2024-06-12-da53fb_microsoft-web.webp";
+import MCsaImg from "@/public/assets/images/Courses/2024-08-02-23e4de_MCSA-WINDOWS-SERVER-2019.jpeg";
 // about-section-image
 import StoryImg from "@/public/assets/images/about-section/our-story-banner-02.png";
 import missionImg from "@/public/assets/images/about-section/Mission.png";
@@ -110,6 +111,8 @@ import ManiCourseImg from "@/public/assets/images/main-course-banner.png";
 
 export {
   ManiCourseImg,
+  MicrosoftWbImg,
+  MCsaImg,
   StoryImg,
   missionImg,
   visionImg,

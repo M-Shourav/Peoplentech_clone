@@ -1,9 +1,16 @@
 import Banner from "@/components/Banner";
+import BasicComputingCourses from "@/components/BasicsComputingCourses";
 import Container from "@/components/Container";
 import DatabaseCourse from "@/components/DatabaseCourse";
+import DigitalMarketingCourses from "@/components/DigitalMarketingCourses";
+import DiplomaCourses from "@/components/DiplomaCourses";
+import GraphicCourses from "@/components/GraphicCourses";
+import NetworkCourses from "@/components/NetworkCourses";
 import ScholarshipCourses from "@/components/ScholarshipCourses";
+import SecurityCourses from "@/components/SecurityCourses";
 import SliderData from "@/components/SliderData";
 import Title from "@/components/Title";
+import WebDevelopmentCourses from "@/components/WebDevelopmentCourses";
 import { ManiCourseImg } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
@@ -73,6 +80,40 @@ const CoursePage = () => {
             Database Management & Testing
           </Title>
           <DatabaseCourse />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">
+            Web & Software Development
+          </Title>
+          <WebDevelopmentCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">Post Graduate Diploma</Title>
+          <DiplomaCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">
+            Network & Server Administration
+          </Title>
+          <NetworkCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">
+            Security & Project Management
+          </Title>
+          <SecurityCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">Graphic & Multimedia</Title>
+          <GraphicCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">Digital Marketing</Title>
+          <DigitalMarketingCourses />
+        </div>
+        <div className="flex flex-col gap-10">
+          <Title className="text-lg md:text-3xl">Basic Computing</Title>
+          <BasicComputingCourses />
         </div>
       </Container>
     </div>

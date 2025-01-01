@@ -1,27 +1,51 @@
 import {
+  AdvanceDMImg,
+  ApplicationImg,
+  AspNetImg,
   assignment,
   BdpoliticaImg,
   BdStudioImg,
   CbbLImg,
+  CEHImg,
   certificate02,
+  CisaImg,
+  ciscoCRNImg,
+  CloudComputingImg,
   ComputerFnImg,
+  CreativeGDImg,
   customer_services,
   CyberImg,
+  CyberSCImg,
+  CyberSecurityImg,
+  CyberThreadImg,
   DataAnalyticsImg,
+  DigitalForensicImg,
   feedback,
   FemaleInformationImg,
+  FlutterImg,
   FooterLogo,
   freelanceImg,
   FreelancingCrhImg,
   FrontiaImg,
+  GraphicsAvImg,
   GtsImg,
+  InformationSSImg,
   interview,
   JobResumeImg,
   jobs,
+  LinuxImg,
   live,
+  MCsaImg,
+  MernStImg,
+  MicrosoftWbImg,
+  NetworkAdImg,
+  networkSAImg,
   NrbImg,
+  OperatingSytImg,
   oracleImg,
+  PmpImg,
   PntdsImg,
+  PythonDjImg,
   recorded,
   requirement,
   SmartIllusionImg,
@@ -34,7 +58,10 @@ import {
   UpsCaleImg,
   UsaImg,
   VolumeCoderImg,
+  WebDPImg,
+  webDvpImg,
   WustImg,
+  ZendImg,
 } from "@/public/assets";
 
 export const NavArray = [
@@ -162,6 +189,333 @@ export const databaseCourseArray = [
       },
     ],
     des: `This course provides a comprehensive introduction to the field of data analytics. It is designed for individuals who are interested in learning about the tools, techniques, and methodologies used to analyze large datasets and extract meaningful insights. By the end of the course, students will be equipped with the knowledge and skills necessary to apply data analytics in real-world scenarios, making them valuable assets in any industry that relies on data-driven decision making. Whether you’re a beginner looking to start a career in data analytics or a professional seeking to enhance your skills, this course offers a solid foundation in this rapidly growing field.`,
+  },
+];
+export const webCoursesArray = [
+  {
+    name: "Professional Web Design & Development Course",
+    images: WebDPImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 18000,
+      },
+    ],
+    des: `Do you know that 80% of the websites worldwide are using PHP Technology? Do you also know that the largest web platforms like Facebook and Wikipedia are also using PHP Technology? In Bangladesh, more than 75% of IT Jobs require PHP Technology. If you also look at the international job market, it is above 65%. Undoubtedly if you learn PHP, you will never be jobless.`,
+  },
+  {
+    name: "ASP.NET MVC Core with SQL Server Training",
+    images: AspNetImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 20000,
+      },
+    ],
+    des: `Our ASP.NET developer training course in Bangladesh for PeopleNTech is for you! Enroll in our ASP.NET training course and elevate your skills in modern web application development. Our comprehensive ASP.NET course focuses on the powerful ASP.NET MVC Core framework, providing hands-on experience that prepares you for real-world challenges. As the premier choice for ASP.NET MVC core training in Bangladesh, we are committed to delivering the best ASP.NET course in Bangladesh. With expert instructors and a curriculum tailored to industry needs, our program is recognized as the best ASP.NET training course in Bangladesh. Enroll today and take the first step toward a successful career in web development!`,
+  },
+  {
+    name: "Mobile Application Development with Dart & Flutter",
+    images: FlutterImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `Do you know that 80% of the websites worldwide are using PHP Technology? Do you also know that the largest web platforms like Facebook and Wikipedia are also using PHP Technology? In Bangladesh, more than 75% of IT Jobs require PHP Technology. If you also look at the international job market, it is above 65%. Undoubtedly if you learn PHP, you will never be jobless.`,
+  },
+  {
+    name: " Web Application Development in Python and Django",
+    images: PythonDjImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `Do you know that 80% of the websites worldwide are using PHP Technology? Do you also know that the largest web platforms like Facebook and Wikipedia are also using PHP Technology? In Bangladesh, more than 75% of IT Jobs require PHP Technology. If you also look at the international job market, it is above 65%. Undoubtedly if you learn PHP, you will never be jobless.`,
+  },
+  {
+    name: "Professional Web Development Training",
+    images: webDvpImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 10000,
+      },
+    ],
+    des: `Do you know that 80% of the websites worldwide are using PHP Technology? Do you also know that the largest web platforms like Facebook and Wikipedia are also using PHP Technology? In Bangladesh, more than 75% of IT Jobs require PHP Technology. If you also look at the international job market, it is above 65%. Undoubtedly if you learn PHP, you will never be jobless.`,
+  },
+  {
+    name: "Zend Certified (PHP) Engineer",
+    images: ZendImg,
+    price: [
+      {
+        regularPrice: 30000,
+        discountPrice: 20000,
+      },
+    ],
+    des: `Do you know that 80% of the websites worldwide are using PHP Technology? Do you also know that the largest web platforms like Facebook and Wikipedia are also using PHP Technology? In Bangladesh, more than 75% of IT Jobs require PHP Technology. If you also look at the international job market, it is above 65%. Undoubtedly if you learn PHP, you will never be jobless.`,
+  },
+];
+export const diplomaCoursesArray = [
+  {
+    name: "Post Graduate Diploma in Cyber Security",
+    images: CyberSCImg,
+    price: [
+      {
+        regularPrice: 100000,
+        discountPrice: 70000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "PGD in Network System Administration",
+    images: NetworkAdImg,
+    price: [
+      {
+        regularPrice: 100000,
+        discountPrice: 70000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "PGD in Microsoft Web Application Development",
+    images: MicrosoftWbImg,
+    price: [
+      {
+        regularPrice: 100000,
+        discountPrice: 60000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "Professional Diploma in Graphics,Editing & Animation",
+    images: GraphicsAvImg,
+    price: [
+      {
+        regularPrice: 60000,
+        discountPrice: 36000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "Professional Diploma in MERN Stack Development",
+    images: MernStImg,
+    price: [
+      {
+        regularPrice: 60000,
+        discountPrice: 30000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+];
+export const NetworkCoursesArray = [
+  {
+    name: "Cisco Certified Network Associate & MikroTik Administration",
+    images: CyberSCImg,
+
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 12000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "Cisco Certified Network Professional- CCNP",
+    images: ciscoCRNImg,
+
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "Red Hat Linux Training",
+    images: LinuxImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 10000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+  {
+    name: "MCSA: Windows Server 2019",
+    images: MCsaImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 10000,
+      },
+    ],
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+  },
+];
+export const ProjectManagementArray = [
+  {
+    name: "IT Security & Ethical Hacking",
+    images: CEHImg,
+    price: [
+      {
+        regularPrice: 15000,
+        discountPrice: 12000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Certified Information System Auditor (CISA)",
+    images: CisaImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 10000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Project Management Professional (PMP)",
+    images: PmpImg,
+    price: [
+      {
+        regularPrice: 25000,
+        discountPrice: 12500,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Security Strategies in Server and End computing Operating Systems",
+    images: OperatingSytImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Network Security Architecture",
+    images: networkSAImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Application Software Security ",
+    images: ApplicationImg,
+    price: [
+      {
+        regularPrice: 15000,
+        discountPrice: 20000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Cyber Security Operating Center Management and Threat Hunting",
+    images: CyberSecurityImg,
+    price: [
+      {
+        regularPrice: 15000,
+        discountPrice: 20000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Cyber Thread Hunting and Analysis",
+    images: CyberThreadImg,
+    price: [
+      {
+        regularPrice: 15000,
+        discountPrice: 20000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Cloud Computing Security",
+    images: CloudComputingImg,
+    price: [
+      {
+        regularPrice: 15000,
+        discountPrice: 12000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Digital Forensic Investigation",
+    images: DigitalForensicImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+  {
+    name: "Information System Security Architecture",
+    images: InformationSSImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 15000,
+      },
+    ],
+    des: `IT Security & Ethical Hacking`,
+  },
+];
+export const GraphicCoursesArray = [
+  {
+    name: "Creative Graphic Design with Freelancing",
+    images: CreativeGDImg,
+    price: [
+      {
+        regularPrice: 20000,
+        discountPrice: 10000,
+      },
+    ],
+    des: `Creative Graphic Design with Freelancing`,
+  },
+];
+export const DigitalMarketingCourseArray = [
+  {
+    name: "Advance Digital Marketing with SEO",
+    images: AdvanceDMImg,
+    price: [
+      {
+        regularPrice: 18000,
+        discountPrice: 9000,
+      },
+    ],
+    des: `Advance Digital Marketing with SEO`,
+  },
+];
+export const ComputingCoursesArray = [
+  {
+    name: "No course found!",
   },
 ];
 export const FacilitiesArray = [
