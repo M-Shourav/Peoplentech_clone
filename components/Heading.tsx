@@ -1,4 +1,4 @@
-import React, { JSX } from "react";
+import React from "react";
 import Title from "./Title";
 import { cn } from "@/lib/utils";
 
@@ -6,7 +6,7 @@ interface Props {
   className?: string;
   title?: string;
   subtitle?: string;
-  icon?: JSX.Element;
+  icon?: React.ReactNode;
   smallTitle?: string;
 }
 
