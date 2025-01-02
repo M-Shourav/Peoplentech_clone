@@ -72,9 +72,9 @@ export const NavArray = [
   {
     name: "About",
     href: "/about",
-    subMenu: [
-      { name: "Our Team", href: "/about/our-team" },
-      { name: "Our Mentor", href: "/about/our-mentor" },
+    submenu: [
+      { name: "Our Team", href: "/about/team" },
+      { name: "Our Story", href: "/about/story" },
     ],
   },
   {
@@ -96,6 +96,17 @@ export const NavArray = [
   {
     name: "Services",
     href: "/services",
+    submenu: [
+      { name: "WUST", href: "https://www.wust.edu/" },
+      {
+        name: "Hosting Services",
+        href: "https://www.pntdns.com/",
+      },
+      {
+        name: "Software Solution",
+        href: "https://peoplentech.net/",
+      },
+    ],
   },
   {
     name: "Contact",

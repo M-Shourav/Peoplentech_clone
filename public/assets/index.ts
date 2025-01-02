@@ -109,8 +109,11 @@ import activitiesImg from "@/public/assets/images/about-section/activities.jpg";
 // main courses
 import ManiCourseImg from "@/public/assets/images/main-course-banner.png";
 
+// seminars
+import seminarsImg from "@/public/assets/images/seminars-banner.png";
 export {
   ManiCourseImg,
+  seminarsImg,
   MicrosoftWbImg,
   MCsaImg,
   StoryImg,
