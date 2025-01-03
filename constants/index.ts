@@ -73,7 +73,7 @@ export const NavArray = [
     name: "About",
     href: "/about",
     submenu: [
-      { name: "Our Team", href: "/about/team" },
+      { name: "Our Team", href: "/our-team" },
       { name: "Our Story", href: "/about/story" },
     ],
   },

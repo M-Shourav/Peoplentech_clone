@@ -111,7 +111,10 @@ import ManiCourseImg from "@/public/assets/images/main-course-banner.png";
 
 // seminars
 import seminarsImg from "@/public/assets/images/seminars-banner.png";
+// our team
+import ourTeamImg from "@/public/assets/images/ourteam/Team-banner.png";
 export {
+  ourTeamImg,
   ManiCourseImg,
   seminarsImg,
   MicrosoftWbImg,
