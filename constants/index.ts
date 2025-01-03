@@ -1,5 +1,7 @@
 import {
   AdvanceDMImg,
+  AmjadulAlamImage,
+  AnjumImage,
   ApplicationImg,
   AshrafulImg,
   AspNetImg,
@@ -44,6 +46,7 @@ import {
   LeonImg,
   LinuxImg,
   live,
+  MahbuburRahmanImage,
   MamunImg,
   MCsaImg,
   MernStImg,
@@ -825,6 +828,236 @@ export const OurTeamArray = [
     name: "Shakowat Zaman",
     title: "Programmer-Software Development",
     Image: ShakowatImg,
+  },
+];
+export const MentorsArray = [
+  {
+    _id: "nirjh-anjum",
+    name: "Nirjhor Anjum",
+    title: "Faculty Head & Chief Consultant",
+    des: `Involved in Programming since 1999,
+     almost 20 years. Worked as Technical Lead 
+     and Project Manager, almost 11 years. Served
+     5 Multinational and 7 Local Companies in India
+     and Bangladesh. Successfully Developed and Led
+     50+ Software projects and 200+ Web projects. 
+     Experienced in 4 Programming Languages, 17 CMS,
+     and 10 Web Frameworks. Achieved 38 International
+     IT Certifications with 12 Professional Training.
+     Mentored 1500+ students in Software Development
+     and Project Management . Columnist on 1 English
+     and 3 Bengali Daily Newspapers`,
+    Skills: [
+      {
+        name: "HTML",
+      },
+      {
+        name: "PHP",
+      },
+      {
+        name: "MYSQL",
+      },
+      {
+        name: "C#",
+      },
+      {
+        name: "Java",
+      },
+      {
+        name: "Python",
+      },
+      {
+        name: "C++",
+      },
+    ],
+    email: "nirjhor@peoplentech.com.bd",
+    phone: "01799446655",
+    education: [
+      {
+        MSC: "MSc in CS (Software Engineering)",
+        title: "Passed with 85% Marks ",
+      },
+      {
+        BSC: "BSc in CIS",
+        title: "Passed with 81% Marks",
+      },
+    ],
+    certificate: [
+      {
+        name: "Accredited Project Manager™ (APRM)",
+        title: "International Organization for Project Management™",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+    ],
+    image: AnjumImage,
+  },
+  {
+    _id: "mahbubur-rahman",
+    name: "Md. Mahbubur Rahman",
+    title: "Sr. Faculty (Asp.Net MVC)",
+    des: `I am an ICT Specialist, specially Solution Architect and
+     Software Engineer in the Institute of Water Modelling (IWM). 
+     I have experience in software project management, enterprise
+     solution architecting, system analysis, system design, data 
+     modelling, and database design and enterprise software development.
+     I am also experienced in managing software quality assurance and 
+     quality control, testing, configuration management, implementation 
+     of enterprise solution for client/server, Intranet/Internet/web based 
+     software application and mobile apps. I am also an experienced Trainer
+     of leading and reputed training organizations in Bangladesh.`,
+    Skills: [
+      {
+        name: "HTML",
+      },
+      {
+        name: "CSS",
+      },
+      {
+        name: "MYSQL",
+      },
+      {
+        name: "SQL Server",
+      },
+      {
+        name: "Oracle",
+      },
+      {
+        name: "java",
+      },
+      {
+        name: "C#",
+      },
+      {
+        name: ".Net",
+      },
+    ],
+    email: "emahbub@gmail.com",
+    phone: "01799446655",
+    certificate: [
+      {
+        name: "fdafaf",
+        title: "ddd",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+    ],
+    image: MahbuburRahmanImage,
+  },
+  {
+    _id: "amjadul-alam",
+    name: "Amjadul Alam",
+    title: "Senior Faculty, Database Management",
+    des: `9+ years experience in Banking & IT sector completed MSC in 
+    Computer Science & Engineering And MBA in Management Information 
+    System.-Achieved Oracle Cloud Infrastructure Associate certification.
+    OCP in 10g,11g,12c & 19c.Also certified in Detective Control 
+    (Audit Vault & Database Firewall) ®-Expertise & practical knowledge 
+    in Oracle Databases, Real Application Cluster configuration & 
+    maintenance, Oracle Active Data Guard, Snapshot Database, 
+    Switchover & failover in real time.-Expertise in RMAN backup Restore
+    & Recovery, Export & Import Backup, RMAN catalog. -Practical 
+    experience in Oracle Database performance tuning related various 
+    activities in Installation configuration, and clustering Oracle 
+    Database in AIX IBM power server. Practical knowledge in 
+    configuration, and maintenance of MS SQL server, and Mysql Database.
+   -Practical experience in PL SQL query & Crystals report customized 
+   related tasks. -Experience in Shell script & API configuration etc 
+   related activists.`,
+    Skills: [
+      {
+        name: "Database Architect",
+      },
+      {
+        name: "Oracle Real Application Cluster",
+      },
+      {
+        name: "Physical Standby",
+      },
+      {
+        name: "Oracle Performance Tuning",
+      },
+      {
+        name: "troubleshoots",
+      },
+      {
+        name: "SQL Server administration",
+      },
+      {
+        name: "Oracle 19c",
+      },
+    ],
+    email: " info@peoplentech.com.bd",
+    phone: "01611446699",
+    education: [
+      {
+        name: "MSC IN CSE",
+        MSC: "United International University (UIU)",
+        title: "",
+      },
+      { name: "MBA in MIS", BSC: "Southern University", title: "Bangladesh" },
+    ],
+    certificate: [
+      {
+        name: `Oracle Cloud Infrastructure 2021 Certified Associate`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Oracle Database 19c Administrator Certified Professional`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Database Administration 12c Certified Professional`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Oracle Database 12c: Data Guard Administrator / Oracle Database Security-Detective Control`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Oracle Cloud Infrastructure 2021 certified Associate`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Database Administration 2019 Certified Professional`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Database Administration 12c Certified Professional`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Administration 11g Certified Professional`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Oracle Database 11g`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Microsoft .Net Framework-Application Development Foundation`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Microsoft .Net Framework 2.0 Web-Based Client Development`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+      {
+        name: `Performance Tuning exam 1Z0-054/Oracle Database Security-Detective Control`,
+        title: "Oracle University",
+        link: "https://www.io4pm.org/badges/25672905972227",
+      },
+    ],
+    image: AmjadulAlamImage,
   },
 ];
 

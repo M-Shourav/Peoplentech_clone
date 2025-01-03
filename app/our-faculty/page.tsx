@@ -1,8 +1,11 @@
 import Banner from "@/components/Banner";
-import { mentorsBanner, ourTeamImg } from "@/public/assets";
+import Container from "@/components/Container";
+import { MentorsArray } from "@/constants";
+import { mentorsBanner } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { LuArrowRight } from "react-icons/lu";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const Faculty = () => {
@@ -50,6 +53,96 @@ const Faculty = () => {
           />
         </div>
       </Banner>
+      <Container className="py-5 md:py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {MentorsArray?.map((item) => (
+            <div
+              key={item?.name}
+              className="flex flex-col md:flex-row items-start justify-between
+            border border-gray-200 p-3 gap-5 rounded-md shadow-xl"
+            >
+              <div className="w-full">
+                <Image
+                  src={item?.image}
+                  alt={item?.name}
+                  className=" object-cover rounded-md"
+                />
+              </div>
+              {/* description */}
+              <div className="flex flex-col gap-3">
+                <div className="flex flex-col items-start">
+                  <Link
+                    href={{
+                      pathname: `/our-faculty/${item?._id}`,
+                      query: { id: item?._id },
+                    }}
+                    className="text-base md:text-xl font-semibold hover:text-skyColor
+                    duration-300 ease-in-out"
+                  >
+                    {item?.name}
+                  </Link>
+                  <p className="text-sm font-medium text-gray-600">
+                    {item?.title}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[15px] text-gray-600">
+                    {item?.des.slice(0, 131)}...
+                  </p>
+                </div>
+                <div className="flex flex-col items-start gap-y-3">
+                  <p
+                    className="text-base md:text-xl font-semibold tracking-wide
+                  text-black/80"
+                  >
+                    Expertise
+                  </p>
+                  <div className="flex flex-wrap gap-x-3 gap-y-2">
+                    {item?.Skills.map((item, index) => (
+                      <p
+                        key={index}
+                        className={`px-2 py-1
+                       uppercase text-[14px] font-semibold rounded-md ${
+                         (index === 0 || index === 1 || index === 5) &&
+                         "bg-[#fff2d6] text-[#FFAB00]"
+                       }
+                       ${
+                         (index === 2 || index === 7) &&
+                         "bg-[#FFEEF3] text-[#F8285A]"
+                       }
+                       ${index === 3 && "bg-[#E7E7FF] text-[#796CFF]"}
+                       ${index === 4 && "bg-[#D7F5FC] text-[#03C3EC]"}
+                       ${index === 6 && "bg-[#E6E9EF] text-[#6F42C1]"}
+                       `}
+                      >
+                        {item?.name}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+                {/* button */}
+                <div className="flex flex-row-reverse p-6">
+                  <Link
+                    href={{
+                      pathname: `/our-faculty/${item?._id}`,
+                      query: { id: item?._id },
+                    }}
+                    className="flex items-center gap-1 text-skyColor 
+                    border border-skyColor px-4 py-1.5 rounded-md
+                     text-base font-medium hover:bg-skyColor duration-300
+                     hover:text-white"
+                  >
+                    See Details
+                    <span>
+                      <LuArrowRight />
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Container>
     </div>
   );
 };

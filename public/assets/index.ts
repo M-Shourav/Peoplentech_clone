@@ -134,7 +134,7 @@ import ShakowatImg from "@/public/assets/images/ourteam/Shakowat Zaman.jpg";
 // our mentors
 import mentorsBanner from "@/public/assets/images/our-mentors/Teacher-banner.png";
 import AnjumImage from "@/public/assets/images/our-mentors/2024-01-10-58f4af_i4TvwslDwZLvhI4ev1gz01X06cmulXRoQemg9GXS.jpeg";
-import MahbuburRahmanImage from "@/public/assets/images/our-mentors/2024-01-10-58f4af_i4TvwslDwZLvhI4ev1gz01X06cmulXRoQemg9GXS.jpeg";
+import MahbuburRahmanImage from "@/public/assets/images/our-mentors/2024-01-28-6c0f98_teacher_3216143235.png";
 import AmjadulAlamImage from "@/public/assets/images/our-mentors/2024-08-02-2edefa_WhatsApp_Image_2024-07-05_at_9.35.09_AM-removebg-preview.png";
 
 export {
