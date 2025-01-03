@@ -113,7 +113,53 @@ import ManiCourseImg from "@/public/assets/images/main-course-banner.png";
 import seminarsImg from "@/public/assets/images/seminars-banner.png";
 // our team
 import ourTeamImg from "@/public/assets/images/ourteam/Team-banner.png";
+import HanipImg from "@/public/assets/images/ourteam/hanip.jpg";
+import FarhanaHanipImg from "@/public/assets/images/ourteam/farhana-Hanip.jpg";
+import LeonImg from "@/public/assets/images/ourteam/leon.jpg";
+import HamidImg from "@/public/assets/images/ourteam/hamid.jpg";
+import JohoraImg from "@/public/assets/images/ourteam/johora.png";
+import SelimRezaImg from "@/public/assets/images/ourteam/reza.png";
+import MamunImg from "@/public/assets/images/ourteam/mamun.jpg";
+import TanzilImg from "@/public/assets/images/ourteam/tanzil.jpg";
+import SheikhAhmedImg from "@/public/assets/images/ourteam/seikh-ahmed.jpeg";
+import HasinaImg from "@/public/assets/images/ourteam/hasina.jpg";
+import HafizurImg from "@/public/assets/images/ourteam/hafizur.jpg";
+import FarzanaImg from "@/public/assets/images/ourteam/Kazi Farjana-Duti.jpg";
+import NurnobiImg from "@/public/assets/images/ourteam/Nurunnabi Sarkar .png";
+import AshrafulImg from "@/public/assets/images/ourteam/Ashraful Haque.jpg";
+import MonjurulImg from "@/public/assets/images/ourteam/Monjurul Alam.jpeg";
+import YousufImg from "@/public/assets/images/ourteam/Yousuf Ali.jpg";
+import SazzadImg from "@/public/assets/images/ourteam/Sajjad Hossain.jpg";
+import ShakowatImg from "@/public/assets/images/ourteam/Shakowat Zaman.jpg";
+// our mentors
+import mentorsBanner from "@/public/assets/images/our-mentors/Teacher-banner.png";
+import AnjumImage from "@/public/assets/images/our-mentors/2024-01-10-58f4af_i4TvwslDwZLvhI4ev1gz01X06cmulXRoQemg9GXS.jpeg";
+import MahbuburRahmanImage from "@/public/assets/images/our-mentors/2024-01-10-58f4af_i4TvwslDwZLvhI4ev1gz01X06cmulXRoQemg9GXS.jpeg";
+import AmjadulAlamImage from "@/public/assets/images/our-mentors/2024-08-02-2edefa_WhatsApp_Image_2024-07-05_at_9.35.09_AM-removebg-preview.png";
+
 export {
+  mentorsBanner,
+  AnjumImage,
+  MahbuburRahmanImage,
+  AmjadulAlamImage,
+  HanipImg,
+  FarhanaHanipImg,
+  LeonImg,
+  HamidImg,
+  JohoraImg,
+  SelimRezaImg,
+  MamunImg,
+  TanzilImg,
+  SheikhAhmedImg,
+  HasinaImg,
+  HafizurImg,
+  FarzanaImg,
+  NurnobiImg,
+  AshrafulImg,
+  MonjurulImg,
+  YousufImg,
+  SazzadImg,
+  ShakowatImg,
   ourTeamImg,
   ManiCourseImg,
   seminarsImg,

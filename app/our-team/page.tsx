@@ -1,4 +1,6 @@
 import Banner from "@/components/Banner";
+import Container from "@/components/Container";
+import { OurTeamArray } from "@/constants";
 import { ourTeamImg } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,6 +52,38 @@ const OurTeam = () => {
           />
         </div>
       </Banner>
+      <Container className="py-5 md:py-10">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          {OurTeamArray?.map((item) => (
+            <div
+              key={item?.name}
+              className="border border-gray-400 flex flex-col 
+              items-center justify-center text-center gap-2 px-4 py-11 rounded-md 
+              hover:-translate-y-2 duration-300 hover:shadow-lg"
+            >
+              <div
+                className="w-28 h-28 border-2 overflow-hidden
+               border-indigo-300 flex items-center justify-center
+                rounded-full"
+              >
+                <Image
+                  src={item?.Image}
+                  alt={item?.name}
+                  className="w-full h-full  rounded-full overflow-hidden"
+                />
+              </div>
+              <div>
+                <h2 className="text-lg md:text-base font-semibold">
+                  {item?.name}
+                </h2>
+                <p className="text-[15px] font-normal text-gray-600">
+                  {item?.title}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Container>
     </div>
   );
 };
