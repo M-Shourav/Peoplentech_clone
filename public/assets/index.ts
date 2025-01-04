@@ -137,8 +137,26 @@ import AnjumImage from "@/public/assets/images/our-mentors/2024-01-10-58f4af_i4T
 import MahbuburRahmanImage from "@/public/assets/images/our-mentors/2024-01-28-6c0f98_teacher_3216143235.png";
 import AmjadulAlamImage from "@/public/assets/images/our-mentors/2024-08-02-2edefa_WhatsApp_Image_2024-07-05_at_9.35.09_AM-removebg-preview.png";
 
+// contact
+import contactBannerImg from "@/public/assets/images/contact/contact-banner.png";
+import canadaImg from "@/public/assets/images/contact/canada.jpg";
+import jerseyImg from "@/public/assets/images/contact/Jersey.jpg";
+import bangladeshImg from "@/public/assets/images/contact/BD-CITY.png";
+import PennsylvaniaImg from "@/public/assets/images/contact/Pennsylvania.jpg";
+import virginiaImg from "@/public/assets/images/contact/Virginia.jpg";
+import newYorkImg from "@/public/assets/images/contact/York.jpg";
+import contactImg from "@/public/assets/images/contact/contact.svg";
+
 export {
   mentorsBanner,
+  canadaImg,
+  bangladeshImg,
+  PennsylvaniaImg,
+  virginiaImg,
+  newYorkImg,
+  contactImg,
+  jerseyImg,
+  contactBannerImg,
   AnjumImage,
   MahbuburRahmanImage,
   AmjadulAlamImage,

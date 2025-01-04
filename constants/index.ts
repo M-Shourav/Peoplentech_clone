@@ -1075,6 +1075,137 @@ export const MentorsArray = [
   },
 ];
 
+export const contactArray = {
+  course: {
+    title: "Course Inquiry",
+    role: [
+      {
+        name: "Ashraful Haque",
+        number: "01844944569 (Ext:2017)",
+      },
+      {
+        name: "Yousuf Ali",
+        number: "01844944572 (Ext:2030)",
+      },
+      {
+        name: "Md Monjurul Alam ",
+        number: "01844944566 (Ext:2026)",
+      },
+      {
+        name: "Tahseen Ahmed Tanha",
+        number: "01885981250 (Ext:2019)",
+      },
+    ],
+  },
+  inquire: {
+    title: "Course Inquire",
+    role: [
+      {
+        name: "Nurunnabi Sarker",
+        number: "01929554499 (Ext:2022)",
+      },
+      {
+        name: "Rifa Tasnia",
+        number: "01929554499 (Ext:2022)",
+      },
+      {
+        name: "Sajib Mia",
+        number: "01929445599 (Ext:2031)",
+      },
+      {
+        name: "Foysal Mahmud Shaun",
+        number: "01324763591 (Ext:2036)",
+      },
+    ],
+  },
+  class: {
+    title: "Class Inquire",
+    role: [
+      {
+        name: "Fatema Tuj Johora",
+        number: "01929449911 (Ext:2015)",
+      },
+      {
+        name: "Sheikh Ahmed",
+        number: "01885981257 (Ext:2032)",
+      },
+      {
+        name: "Esmat Jahan Eati",
+        number: "01929440099 (Ext:2000)",
+      },
+      {
+        name: "Amdadul Hasan",
+        number: "01324763589 (Ext:2033)",
+      },
+    ],
+  },
+  Corporate: {
+    title: "Corporate Inquiry",
+    role: [
+      {
+        name: "Sheikh Ahmed",
+        number: "01611446699 (Ext:2032)",
+      },
+      {
+        name: "Ashraful Haque",
+        number: "01799446655 (Ext:2017)",
+      },
+      {
+        name: "Nurunnabi Sarker",
+        number: "01929554499 (Ext:2022)",
+      },
+    ],
+  },
+  GovtProject: {
+    title: "Govt.Project",
+    role: [
+      {
+        name: "Selim Reza",
+        number: "01885981259 (Ext:2028)",
+      },
+    ],
+  },
+  Bitm: {
+    title: "BITM",
+    role: [
+      {
+        name: "Tasnim Khan Mim",
+        number: "01885981258 (Ext:)",
+      },
+    ],
+  },
+  IDB: {
+    title: "IDB Inquire",
+    role: [
+      {
+        name: "Kazi Farjana Duti",
+        number: "01929449900 (Ext:2026)",
+      },
+    ],
+  },
+  Software: {
+    title: "Software Development",
+    role: [
+      {
+        name: "Sheikh Ahamed",
+        number: "01611446699 (Ext:2032)",
+      },
+    ],
+  },
+  Recruitment: {
+    title: "Recruitment & Job Placement ",
+    role: [{ name: "Nazmul Hasan", number: "01929559900 (Ext:2035)" }],
+  },
+  Complain: {
+    title: "Complain (Quality Management)",
+    role: [
+      {
+        name: "Sheikh Ahamed",
+        number: "01611446699 (Ext:2032)",
+      },
+    ],
+  },
+};
 export const footerArray = {
   webBio: {
     images: FooterLogo,
