@@ -874,13 +874,11 @@ export const MentorsArray = [
     phone: "01799446655",
     education: [
       {
-        MSC: "MSc in CS (Software Engineering)",
+        name: "MSC",
+        university: "MSc in CS (Software Engineering)",
         title: "Passed with 85% Marks ",
       },
-      {
-        BSC: "BSc in CIS",
-        title: "Passed with 81% Marks",
-      },
+      { name: "BSC", university: "BSc in CIS", title: "Passed with 81% Marks" },
     ],
     certificate: [
       {
@@ -990,10 +988,14 @@ export const MentorsArray = [
     education: [
       {
         name: "MSC IN CSE",
-        MSC: "United International University (UIU)",
-        title: "",
+        university: "United International University ",
+        title: "(UIU)",
       },
-      { name: "MBA in MIS", BSC: "Southern University", title: "Bangladesh" },
+      {
+        name: "MBA in MIS",
+        university: "Southern University",
+        title: "Bangladesh",
+      },
     ],
     certificate: [
       {

@@ -1,5 +1,6 @@
 "use client";
 import Container from "@/components/Container";
+import Title from "@/components/Title";
 import { MentorsArray } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,9 +19,39 @@ const SinglePage = () => {
     return <div className="py-10 px-5 text-center">No Mentors Available</div>;
   }
   return (
-    <Container className="py-5 md:py-10 flex flex-col md:flex-row gap-2">
-      <div className="w-full">
-        <Image src={Mentors?.image} alt={Mentors?.name} />
+    <Container className="py-5 md:py-10 flex flex-col md:flex-row gap-5 md:gap-10">
+      <div className="w-full md:w-1/3 flex flex-col gap-5">
+        <div className="w-full border border-gray-200 rounded-md shadow-2xl">
+          <Image src={Mentors?.image} alt={Mentors?.name} />
+        </div>
+        {/* education */}
+        <div className="w-full flex flex-col gap-5 border border-gray-200 rounded-md shadow-2xl p-5">
+          <div>
+            <Title className="tracking-wide">Education</Title>
+            <div className="border-b border-b-gray-500 flex flex-col gap-5">
+              {Mentors?.education?.map((item, index) => (
+                <div key={index} className="flex items-center gap-2">
+                  <span
+                    className="w-12 h-12 bg-[#DFFFEA] text-[#12B76A] 
+            flex items-center justify-center mb-2 text-2xl rounded-md "
+                  >
+                    <FaGraduationCap />
+                  </span>
+                  <div className="mb-5">
+                    <h3 className="text-base font-semibold">{item?.name}</h3>
+                    <p className="text-base text-gray-600">
+                      {item?.university}
+                    </p>
+                    <p className="text-base text-gray-500">{item?.title}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div>
+            <Title className="tracking-wide">Skills</Title>
+          </div>
+        </div>
       </div>
       <div className="w-full flex flex-col gap-5">
         <div className="flex flex-col items-start gap-1">
@@ -115,21 +146,17 @@ const SinglePage = () => {
           <p className="text-lg md:text-2xl font-semibold tracking-wide">
             Certifications
           </p>
-          <div className="flex items-center gap-3">
-            <div
-              className="w-12 h-12 rounded-md bg-[#DFFFEA] text-[#12B76A]
-            flex items-center justify-center text-2xl"
-            >
-              <span>
-                <FaGraduationCap />
-              </span>
-            </div>
-            <div>
-              {Mentors?.certificate.map((item, index) => (
-                <div key={index}>
-                  <p className="text-base md:text-lg font-semibold">
-                    {item?.name}
-                  </p>
+          <div>
+            {Mentors?.certificate.map((item, index) => (
+              <div key={index} className="flex items-center gap-3">
+                <span
+                  className="w-12 h-12 bg-[#DFFFEA] text-[#12B76A] flex items-center justify-center mb-2
+                text-2xl rounded-md "
+                >
+                  <FaGraduationCap />
+                </span>
+                <div>
+                  <p className="text-base font-semibold">{item?.name}</p>
                   <Link
                     href={item?.link}
                     target="_blank"
@@ -138,8 +165,8 @@ const SinglePage = () => {
                     {item?.title}
                   </Link>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
