@@ -938,6 +938,18 @@ export const MentorsArray = [
         link: "https://www.io4pm.org/badges/25672905972227",
       },
     ],
+    education: [
+      {
+        name: "MSC",
+        university: "",
+        title: "",
+      },
+      {
+        name: "BSC",
+        university: "",
+        title: "",
+      },
+    ],
     image: MahbuburRahmanImage,
   },
   {

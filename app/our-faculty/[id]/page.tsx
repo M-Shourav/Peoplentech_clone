@@ -20,20 +20,27 @@ const SinglePage = () => {
   }
   return (
     <Container className="py-5 md:py-10 flex flex-col md:flex-row gap-5 md:gap-10">
-      <div className="w-full md:w-1/3 flex flex-col gap-5">
-        <div className="w-full border border-gray-200 rounded-md shadow-2xl">
-          <Image src={Mentors?.image} alt={Mentors?.name} />
+      <div className="w-full md:w-1/2 flex flex-col gap-5">
+        <div
+          className="w-full border border-gray-200 rounded-md 
+        shadow-2xl flex items-center justify-center"
+        >
+          <Image
+            src={Mentors?.image}
+            alt={Mentors?.name}
+            className=" object-cover rounded-lg p-1"
+          />
         </div>
         {/* education */}
-        <div className="w-full flex flex-col gap-5 border border-gray-200 rounded-md shadow-2xl p-5">
-          <div>
+        <div className="w-full flex flex-col gap-5 border border-gray-300 rounded-md shadow-2xl p-5">
+          <div className="flex flex-col gap-3">
             <Title className="tracking-wide">Education</Title>
-            <div className="border-b border-b-gray-500 flex flex-col gap-5">
+            <div className="border-b border-b-gray-500 flex flex-col">
               {Mentors?.education?.map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <span
                     className="w-12 h-12 bg-[#DFFFEA] text-[#12B76A] 
-            flex items-center justify-center mb-2 text-2xl rounded-md "
+                   flex items-center justify-center mb-2 text-2xl rounded-md "
                   >
                     <FaGraduationCap />
                   </span>
@@ -48,8 +55,33 @@ const SinglePage = () => {
               ))}
             </div>
           </div>
-          <div>
+          {/* skills */}
+          <div className="flex flex-col gap-3">
             <Title className="tracking-wide">Skills</Title>
+            <div className="flex flex-wrap gap-3">
+              {Mentors?.Skills.map((item, index) => (
+                <div
+                  key={index}
+                  className={`w-fit p-1 rounded-md
+                   ${
+                     (index === 0 || index === 1 || index === 5) &&
+                     "bg-[#fff2d6] text-[#FFAB00]"
+                   }
+                  ${
+                    (index === 2 || index === 7) &&
+                    "bg-[#FFEEF3] text-[#F8285A]"
+                  }
+                  ${index === 3 && "bg-[#E7E7FF] text-[#796CFF]"}
+                  ${index === 4 && "bg-[#D7F5FC] text-[#03C3EC]"}
+                  ${index === 6 && "bg-[#E6E9EF] text-[#6F42C1]"}
+                  `}
+                >
+                  <p className="uppercase text-[13px] font-semibold">
+                    {item?.name}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -89,7 +121,7 @@ const SinglePage = () => {
         </div>
         {/* experience */}
         <div
-          className="w-full flex flex-col md:flex-row items-center
+          className="w-full flex flex-col md:flex-row items-start md:items-center
          justify-between gap-5"
         >
           <div className="flex items-center gap-x-3">

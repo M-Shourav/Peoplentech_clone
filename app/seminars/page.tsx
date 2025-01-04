@@ -26,20 +26,19 @@ const SeminarsPage = () => {
               className="text-lg md:text-xl font-semibold text-white/80"
             >
               {" "}
-              All Courses
+              Free Seminars
             </Link>
           </div>
           <div className="w-full flex flex-col gap-5">
             <h2 className="text-lg md:text-2xl lg:text-4xl font-semibold">
-              Unlock Your Potential: Mastering Skills for Success
+              Schedule of free seminars
             </h2>
             <p className="max-w-[600px] text-xs md:text-base mb-10 text-white/80">
-              Welcome to our Skill Development Hub, where you embark on a
-              journey of self-discovery and mastery. In today's fast-paced
-              world, honing your skills is not just a choice; it's a necessity.
-              Whether you're aiming for personal growth, career advancement, or
-              simply exploring new passions, this platform is your gateway to
-              unlocking your full potential.
+              Which course to enroll, what are the job opportunities in that
+              course and what benefits will you get if you enroll in PeopleNTech
+              Institute of IT, you must have many such questions in your mind?
+              Every week we organize course-based free seminars to directly
+              answer any of your questions.
             </p>
           </div>
         </div>
