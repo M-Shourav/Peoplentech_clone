@@ -80,7 +80,7 @@ const ContactPage = () => {
         </div>
       </Banner>
 
-      <Container className="py-5 md:py-10 flex flex-col gap-5 md:gap-10">
+      <Container className="py-5 md:py-10 flex flex-col items-center gap-5 md:gap-10">
         <div className="flex items-center justify-center">
           <div className="flex flex-col items-center justify-center gap-3">
             <Title className="md:text-4xl tracking-wide">
@@ -476,6 +476,15 @@ const ContactPage = () => {
             </div>
             <ContactRight />
           </div>
+        </div>
+        <div className="flex flex-col gap-y-3">
+          <Title className="md:text-4xl">
+            Branch office contact information
+          </Title>
+          <p className="text-base tracking-wide text-gray-600">
+            Check out our branch offices around the world, you can connect with
+            one near you.
+          </p>
         </div>
       </Container>
     </div>
