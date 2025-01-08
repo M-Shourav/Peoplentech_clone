@@ -1,7 +1,7 @@
 import Banner from "@/components/Banner";
 import Container from "@/components/Container";
 import { videoLink } from "@/constants";
-import { facilities_banner, success_bannerImg } from "@/public/assets";
+import { success_bannerImg } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

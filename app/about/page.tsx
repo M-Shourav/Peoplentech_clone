@@ -6,7 +6,6 @@ import OurCeo from "@/components/OurCeo";
 import OurConcerns from "@/components/OurConcerns";
 import OurMission from "@/components/OurMission";
 import Title from "@/components/Title";
-import { logo } from "@/public/assets";
 import React from "react";
 
 const AboutPage = () => {

@@ -36,7 +36,6 @@ const CoursePage = () => {
               href={"/"}
               className="text-lg md:text-xl font-semibold text-white/80"
             >
-              {" "}
               All Courses
             </Link>
           </div>
@@ -46,11 +45,11 @@ const CoursePage = () => {
             </h2>
             <p className="max-w-[600px] text-xs md:text-base mb-10 text-white/80">
               Welcome to our Skill Development Hub, where you embark on a
-              journey of self-discovery and mastery. In today's fast-paced
-              world, honing your skills is not just a choice; it's a necessity.
-              Whether you're aiming for personal growth, career advancement, or
-              simply exploring new passions, this platform is your gateway to
-              unlocking your full potential.
+              journey of self-discovery and mastery. In today&apos;s fast-paced
+              world, honing your skills is not just a choice; it&apos;s a
+              necessity. Whether you&apos;re aiming for personal growth, career
+              advancement, or simply exploring new passions, this platform is
+              your gateway to unlocking your full potential.
             </p>
           </div>
         </div>

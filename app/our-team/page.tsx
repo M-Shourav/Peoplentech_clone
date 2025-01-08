@@ -35,7 +35,7 @@ const OurTeam = () => {
               Get to Know the Faces Behind Our Work
             </h2>
             <p className="max-w-[600px] text-xs md:text-base mb-10 text-white/80">
-              Welcome to our team page! Here you'll find the incredible
+              Welcome to our team page! Here you&apos;ll find the incredible
               individuals who work tirelessly to bring our vision to life. From
               creative minds to technical wizards, each member of our team plays
               a crucial role in our success. Get to know us better below!

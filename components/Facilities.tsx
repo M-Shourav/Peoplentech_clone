@@ -12,6 +12,13 @@ const Facilities = () => {
   const displayProject = showData
     ? FacilitiesArray
     : FacilitiesArray.slice(0, 6);
+  const handleShow = () => {
+    if (showData) {
+      setShowData(false);
+    } else {
+      setShowData(true);
+    }
+  };
 
   return (
     <div

@@ -33,7 +33,7 @@ const StoryPeopleNTech = () => {
         p-6 rounded-md"
           >
             <p className="text-base md:text-xl font-semibold">
-              " Our Mission - To Create Skilled Manpower "
+              &quot; Our Mission - To Create Skilled Manpower &quot;
             </p>
           </div>
           <div className="w-full flex items-center justify-center overflow-hidden">
@@ -60,14 +60,14 @@ const StoryPeopleNTech = () => {
             For over 09 years, PeopleNTech Institute of IT has been providing IT
             training to over 60,000 students, along with creating employment
             opportunities for them. Whether in the IT sector or non-IT sectors,
-            there is now a high demand for IT experts everywhere. That's why,
-            with updated curriculum, experienced mentors, and modern labs, we
-            have been preparing IT experts for over 09 years. Through this
+            there is now a high demand for IT experts everywhere. That&apos;s
+            why, with updated curriculum, experienced mentors, and modern labs,
+            we have been preparing IT experts for over 09 years. Through this
             journey, we have seen the success of over 60,000 individuals who
             have become self-reliant and created job opportunities for others.
             The success of these students inspires our path. We believe everyone
-            is talented, and it's our responsibility to nurture your talent. All
-            you need is the enthusiasm and regular practice.
+            is talented, and it&apos;s our responsibility to nurture your
+            talent. All you need is the enthusiasm and regular practice.
           </p>
           <div className="w-full flex items-center gap-5">
             <Link

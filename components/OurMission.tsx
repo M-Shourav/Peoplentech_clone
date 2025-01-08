@@ -51,9 +51,9 @@ const OurMission = () => {
           <Title className="text-lg md:text-2xl">Our Purpose</Title>
           <p className="text-gray-600 tracking-wider leading-7">
             Our vision is to serve our students as helping hands to create new
-            horizons for people's career change. To empower the people of the
-            country by ensuring modern and quality training system by harnessing
-            the youth power.
+            horizons for people&apos;s career change. To empower the people of
+            the country by ensuring modern and quality training system by
+            harnessing the youth power.
           </p>
         </div>
       </div>

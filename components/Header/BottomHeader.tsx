@@ -11,9 +11,9 @@ import { usePathname } from "next/navigation";
 import { FaAngleDown } from "react-icons/fa";
 
 const BottomHeader = () => {
-  const [dropdown, setDropdown] = useState(null);
+  const [dropdown, setDropdown] = useState<string | null>(null);
   const pathName = usePathname();
-  const HandelMouseEnter = (name: any) => {
+  const HandelMouseEnter = (name: string) => {
     setDropdown(name);
   };
   const HandelMouseLeave = () => {
