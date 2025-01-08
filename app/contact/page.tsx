@@ -1,7 +1,7 @@
 import Banner from "@/components/Banner";
 import ContactRight from "@/components/ContactRight";
 import Container from "@/components/Container";
-import Heading from "@/components/Heading";
+import LocationCard from "@/components/LocationCard";
 import Title from "@/components/Title";
 import { contactArray } from "@/constants";
 import { contactBannerImg, contactImg } from "@/public/assets";
@@ -477,7 +477,7 @@ const ContactPage = () => {
             <ContactRight />
           </div>
         </div>
-        <div className="flex flex-col gap-y-3">
+        <div className=" flex flex-col gap-y-3">
           <Title className="md:text-4xl">
             Branch office contact information
           </Title>
@@ -485,6 +485,16 @@ const ContactPage = () => {
             Check out our branch offices around the world, you can connect with
             one near you.
           </p>
+        </div>
+        <LocationCard />
+        <div className="w-full">
+          <iframe
+            className="w-full rounded-md"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1310.026329093155!2d90.386776!3d23.750716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bb2b0758f9%3A0xe21afdf459453ff!2sPeopleNTech%20Institute%20of%20IT%20-%20Training%20%26%20Job%20Placement%20Service!5e1!3m2!1sen!2sbd!4v1736357128002!5m2!1sen!2sbd"
+            width="600"
+            height="450"
+            loading="lazy"
+          ></iframe>
         </div>
       </Container>
     </div>
