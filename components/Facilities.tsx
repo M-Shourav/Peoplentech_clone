@@ -1,25 +1,12 @@
-"use client";
 import { FacilitiesArray } from "@/constants";
 import Container from "./Container";
 import Heading from "./Heading";
 import { PiShoppingBagOpenFill } from "react-icons/pi";
 import Image from "next/image";
-import { useState } from "react";
 import Link from "next/link";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 const Facilities = () => {
-  const [showData, setShowData] = useState(false);
-  const displayProject = showData
-    ? FacilitiesArray
-    : FacilitiesArray.slice(0, 6);
-  const handleShow = () => {
-    if (showData) {
-      setShowData(false);
-    } else {
-      setShowData(true);
-    }
-  };
-
+  const displayProject = FacilitiesArray.slice(0, 6);
   return (
     <div
       className="w-full flex flex-col items-center justify-between gap-5

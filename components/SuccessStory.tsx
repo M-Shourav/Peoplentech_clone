@@ -1,5 +1,3 @@
-"use client";
-import React, { useState } from "react";
 import Container from "./Container";
 import Heading from "./Heading";
 import { videoLink } from "@/constants";
@@ -7,9 +5,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import Link from "next/link";
 
 const SuccessStory = () => {
-  const [showVideo, setShowVideo] = useState(false);
-
-  const disPlayVideo = showVideo ? videoLink : videoLink.slice(0, 6);
+  const disPlayVideo = videoLink.slice(0, 6);
   return (
     <Container className="py-5 flex flex-col gap-5 md:gap-10">
       <Heading
