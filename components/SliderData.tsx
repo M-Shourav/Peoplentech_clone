@@ -105,7 +105,7 @@ const SliderData = () => {
       >
         <CarouselContent>
           {SliderArray?.map((item) => (
-            <CarouselItem key={item?.id} className="basis-1/3 md:basis-1/5">
+            <CarouselItem key={item?.id} className="basis-1/2 md:basis-1/5">
               <Card className="bg-white border border-skyColor/20">
                 <CardContent
                   className="w-full h-60 p-6 hover:bg-orange-500/85 rounded-md
