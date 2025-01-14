@@ -52,16 +52,18 @@ const SuccessStories = () => {
           />
         </div>
       </Banner>
-      <Container>
-        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+      <Container className="w-full flex items-center justify-center">
+        <div
+          className="w-full mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5
+         place-items-center"
+        >
           {videoLink?.map((item) => (
-            <div key={item?.id}>
+            <div key={item?.id} className="w-full">
               <iframe
                 src={item?.link}
-                width={350}
                 height={200}
                 loading="lazy"
-                className=" rounded-md"
+                className="w-full object-cover rounded-md"
                 allowFullScreen
               />
             </div>
