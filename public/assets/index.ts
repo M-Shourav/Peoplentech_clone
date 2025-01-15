@@ -147,8 +147,11 @@ import virginiaImg from "@/public/assets/images/contact/Virginia.jpg";
 import newYorkImg from "@/public/assets/images/contact/York.jpg";
 import contactImg from "@/public/assets/images/contact/contact.svg";
 
+// upcoming
+import Upcoming from "@/public/assets/images/upcoming-banner.png";
 export {
   mentorsBanner,
+  Upcoming,
   canadaImg,
   bangladeshImg,
   PennsylvaniaImg,

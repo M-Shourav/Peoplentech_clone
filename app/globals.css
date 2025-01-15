@@ -16,3 +16,15 @@
 body {
   font-family: var(--font-inter);
 }
+
+@layer components {
+  .RepeatedBg {
+    background: repeating-linear-gradient(
+      45deg,
+      #a8a8a8,
+      #a8a8a8 10px,
+      #ffffff 10px,
+      #ffffff 20px
+    );
+  }
+}

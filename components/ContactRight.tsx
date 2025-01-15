@@ -191,8 +191,8 @@ const ContactRight = () => {
                 />
                 <div className="w-full flex items-center justify-between gap-5">
                   <p
-                    className="w-full h-10 flex items-center justify-center p-2 text-base md:text-xl
-                   border border-black italic tracking-wide"
+                    className="w-full h-10 flex items-center justify-center p-2 text-base md:text-2xl
+                   border border-black italic tracking-wide RepeatedBg"
                   >
                     {captcha}
                   </p>
