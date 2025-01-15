@@ -1,7 +1,17 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaStarOfLife } from "react-icons/fa";
+import { IoReload } from "react-icons/io5";
+import Swal from "sweetalert2";
 const ContactRight = () => {
+  const [captcha, setCaptcha] = useState("");
+  useEffect(() => {
+    const randomNumber = Math.floor(100000 + Math.random() * 900000);
+    setCaptcha(randomNumber.toString());
+  }, []);
+  const refreshCaptcha = () => {
+    setCaptcha(Math.floor(100000 + Math.random() * 900000).toString());
+  };
   const [status, setStatus] = useState("");
   const [formData, setFormData] = useState({
     Name: "",
@@ -24,6 +34,18 @@ const ContactRight = () => {
 
   const HandleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (formData.Captcha !== captcha) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Captcha Does not match",
+      });
+      setTimeout(() => {
+        setStatus("");
+      }, 2000);
+      return;
+    }
+
     const form = new FormData();
     const currentDateTime = new Date().toLocaleString();
     form.append("Name", formData.Name);
@@ -44,6 +66,7 @@ const ContactRight = () => {
           Message: "",
           Captcha: "",
         });
+        setCaptcha(Math.floor(100000 + Math.random() * 900000).toString());
       } else {
         setStatus("Error! Unable to send your message");
       }
@@ -148,11 +171,14 @@ const ContactRight = () => {
             border border-gray-300 focus-visible:border-red-500"
               />
             </div>
-            <div>
-              <div className="flex flex-col gap-y-2">
-                <p className="text-base font-normal tracking-wide text-gray-700">
-                  Captcha
-                </p>
+            <div className="flex flex-col gap-y-2">
+              <p className="text-base font-normal tracking-wide text-gray-700">
+                Captcha
+              </p>
+              <div
+                className="w-full flex flex-col md:flex-row items-start md:items-center 
+              justify-between gap-5"
+              >
                 <input
                   type="text"
                   placeholder="Enter captcha"
@@ -161,8 +187,23 @@ const ContactRight = () => {
                   onChange={handleChange}
                   required
                   className="w-full p-2 h-12 bg-white text-black rounded-md outline-none
-            border border-gray-300 focus-visible:border-red-500"
+                  border border-gray-300 focus-visible:border-red-500"
                 />
+                <div className="w-full flex items-center justify-between gap-5">
+                  <p
+                    className="w-full h-10 flex items-center justify-center p-2 text-base md:text-xl
+                   border border-black italic tracking-wide"
+                  >
+                    {captcha}
+                  </p>
+                  <button
+                    className="w-10 h-10 bg-blue-600 text-white flex items-center
+                   justify-center rounded-md"
+                    onClick={() => refreshCaptcha()}
+                  >
+                    <IoReload className="text-lg" />
+                  </button>
+                </div>
               </div>
             </div>
             <div

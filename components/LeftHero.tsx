@@ -93,22 +93,22 @@ const LeftHero = () => {
       {/* button */}
       <div className="flex items-center  gap-5">
         <Link
-          href={"/"}
-          className="flex items-center gap-x-1 text-base font-semibold 
+          href={"courses"}
+          className="flex items-center gap-x-1 text-sm md:text-base font-semibold 
           px-8 py-2 rounded-full bg-skyColor hover:bg-lightSky
            text-white duration-300 ease-in-out"
         >
           Our courses{" "}
-          <span>
+          <span className="text-lg md:text-xl">
             <IoMdArrowForward />
           </span>
         </Link>
         <Link
-          href={"/"}
-          className="flex items-center gap-x-1 text-base font-semibold 
+          href={"seminars"}
+          className="flex items-center gap-x-1 text-sm md:text-base font-semibold 
           hover:text-lightSky duration-300 ease-in-out"
         >
-          <span className="text-3xl">
+          <span className="text-xl md:text-3xl">
             <IoPlayCircleOutline />
           </span>
           Join Free Seminar
