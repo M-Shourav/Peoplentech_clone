@@ -49,8 +49,26 @@ const BatchPage = () => {
           />
         </div>
       </Banner>
-      <Container className="py-5 md:py-10">
-        <p>Data</p>
+      <Container className="py-5 md:py-10 border border-gray-300">
+        <div className="w-full p-2 shadow shadow-boxShadow border border-gray-200">
+          <div className="grid grid-cols-12 gap-5 ">
+            <p className="text-base font-semibold">SL</p>
+
+            <p className="col-span-4 text-base font-semibold">Batch</p>
+
+            <p className="col-span-1 hidden sm:block text-base font-semibold">
+              Enroll date
+            </p>
+
+            <p className="col-span-1 hidden sm:block text-base font-semibold">
+              Class start
+            </p>
+
+            <p className="col-span-2 text-base font-semibold">Price</p>
+
+            <p className="col-span-3 text-base font-semibold">#</p>
+          </div>
+        </div>
       </Container>
     </div>
   );

@@ -1275,6 +1275,1053 @@ export const LocationCardArray = [
     image: virginiaImg,
   },
 ];
+export const upComingBatchArray = [
+  {
+    SLNo: "1",
+    _id: "PGD in Network System Administration",
+    title: "	PGD in Network System Administration",
+    subtitle: "Course Features",
+    des: `Are you interested & thrilled in Cyber Security Career? 
+    Here Post Graduate Diploma in Cyber Security course of PeopleNTech
+    can be the best choice for you. Our Post Graduate Diploma in Cyber 
+    Security Training Course is a comprehensive, one-year program designed 
+    to equip students with the essential skills and knowledge to tackle 
+    the evolving challenges of the digital world. If you are looking for 
+    a Cybersecurity course in Bangladesh, This course focuses on safeguarding 
+    networks, systems, and sensitive data from cyber threats. Recognized 
+    as the best cyber security course in Bangladesh, we provide hands-on 
+    experience in risk management, cryptography, and ethical hacking. 
+    Whether you're looking to enhance your career or enter the 
+    cybersecurity field, this cybersecurity diploma in Bangladesh offers 
+    a strong foundation for success in the fast-growing industry.`,
+    price: { regularPrice: "70000", discountPrice: "100000" },
+    courseFeature: [
+      {
+        name: "",
+      },
+      {
+        name: "",
+      },
+      {
+        name: "",
+      },
+      {
+        name: "",
+      },
+      {
+        name: "",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "NSA-B1-0011",
+        classRoutine: [
+          {
+            day: "Mon",
+          },
+          {
+            day: "Wed",
+          },
+          {
+            day: "Sat",
+          },
+        ],
+        classStart: "07:00 AM - 10:00 PM",
+        classType: "Offline",
+        totalClass: "120",
+        courseDuration: "12 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "17 Jan,25",
+      startDate: "18 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/FyZH5hYyQ1A?si=cdvmUgjoUKhZUG69",
+  },
+  {
+    SLNo: "2",
+    _id: "Post Graduate Diploma in Cyber Security",
+    title: "Post Graduate Diploma in Cyber Security",
+    subtitle: "Course Features",
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+    price: { regularPrice: "70000", discountPrice: "100000" },
+    courseFeature: [
+      {
+        name: "Income and Freelancing Guidelines",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Job Placement Support",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "PGDCSS-B1-005",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+        ],
+        classStart: "10:00 AM - 1:00 PM",
+        classType: "Offline",
+        totalClass: "120",
+        courseDuration: "1 Year",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "17 Jan,25",
+      startDate: "18 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/sOkq4S6_e_c?si=ob1IOcX66jI2MV6n",
+  },
+  {
+    SLNo: "3",
+    _id: "PGD in Microsoft Web Application Development",
+    title: "PGD in Microsoft Web Application Development",
+    subtitle: "Course Features",
+    des: `The Post Graduate Diploma in Microsoft Web Application Development at PeopleNTech is an exceptional program designed for those seeking to excel in web technologies. This course offers a Professional Microsoft Web Development course with ASP.NET, that equips students with the skills needed to create dynamic and responsive web applications. With a strong emphasis on practical learning, the Professional Microsoft Web Application Development with ASP.NET course provides comprehensive Microsoft web application development training covering essential frameworks, tools, and best practices. By enrolling in this post-graduate diploma in ASP.NET development training, students will gain valuable experience and knowledge to thrive in the competitive field of web application development, preparing them for exciting career opportunities in the tech industry`,
+    price: { regularPrice: "60000", discountPrice: "100000" },
+    courseFeature: [
+      {
+        name: "",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "PGD-MWAD-B1-004",
+        classRoutine: [
+          {
+            day: "Sun",
+          },
+          {
+            day: "Tue",
+          },
+          {
+            day: "Thu",
+          },
+        ],
+        classStart: "07:00 PM - 10:00 PM",
+        classType: "Offline",
+        totalClass: "120",
+        courseDuration: "1 Year",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "17 Jan,25",
+      startDate: "18 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/oLatzg9Jvw0?si=g3T-9xr30wzpxfJt",
+  },
+  {
+    SLNo: "4",
+    _id: "Online Training on Advance Digital Marketing & SEO with Freelancing",
+    title:
+      "Online Training on Advance Digital Marketing & SEO with Freelancing",
+    subtitle: "Course Features",
+    des: `Globally, digital marketing and social media have transformed business practices and marketing. This course offers an understanding of the constantly changing digital landscape and looks at the tools and processes used in digital marketing strategically in the creation of the digital marketing plan and overall marketing strategy. It examines the difficulties associated with interactive media, the internet marketplace, and the innovative problems associated with customer retention plans and communication through these mediums, as well as the primary search engines and upcoming developments in digital marketing`,
+    price: { regularPrice: "18000", discountPrice: "4999" },
+    courseFeature: [
+      {
+        name: "Income and Freelancing Guidelines",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Total 60 Hours",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "32+ Live Classes",
+      },
+      {
+        name: "Course duration is 3 months",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "DM & SEO-B1-20 (ONLINE)",
+        classRoutine: [
+          {
+            day: "Mon",
+          },
+          {
+            day: "Wed",
+          },
+        ],
+        classStart: "07:00 PM - 9:00 PM",
+        classType: "Online",
+        totalClass: "30",
+        courseDuration: "3 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "21 Jan,25",
+      startDate: "22 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/dpM2DVO0lUI?si=qxRKkgJr0jTKwW5m",
+  },
+  {
+    SLNo: "5",
+    _id: "Online Training ",
+    title: "Online Training on Creative Graphics Design with Freelancing",
+    subtitle: "Course Features",
+    des: `Creative Graphic Design is one of the most demanded skills now-a-days. With a massive expansion of Digital Marketing, graphical presentation became an important part of all online marketing campaigns.`,
+    price: { regularPrice: "20000", discountPrice: "4999" },
+    courseFeature: [
+      {
+        name: "Income and Freelancing Guidelines",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Total 60 Hours",
+      },
+      {
+        name: "Job Placement Support",
+      },
+
+      {
+        name: "Course duration is 4 months",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "GD-B1-039 (ONLINE)",
+        classRoutine: [
+          {
+            day: "Sun",
+          },
+          {
+            day: "Tue",
+          },
+          {
+            day: "Thu",
+          },
+        ],
+        classStart: "07:00 PM - 9:00 PM",
+        classType: "Online",
+        totalClass: "30",
+        courseDuration: "3 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "22 Jan,25",
+      startDate: "23 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/dpM2DVO0lUI?si=qxRKkgJr0jTKwW5m",
+  },
+  {
+    SLNo: "6",
+    _id: "Online Training ",
+    title: "Online Training on Creative Graphics Design with Freelancing",
+    subtitle: "Course Features",
+    des: `Creative Graphic Design is one of the most demanded skills now-a-days. With a massive expansion of Digital Marketing, graphical presentation became an important part of all online marketing campaigns.`,
+    price: { regularPrice: "4999", discountPrice: "20000" },
+    courseFeature: [
+      {
+        name: "Income and Freelancing Guidelines",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Total 60 Hours",
+      },
+      {
+        name: "Job Placement Support",
+      },
+
+      {
+        name: "Course duration is 4 months",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "GD-B1-039 (ONLINE)",
+        classRoutine: [
+          {
+            day: "Sun",
+          },
+          {
+            day: "Tue",
+          },
+          {
+            day: "Thu",
+          },
+        ],
+        classStart: "07:00 PM - 9:00 PM",
+        classType: "Online",
+        totalClass: "30",
+        courseDuration: "3 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "22 Jan,25",
+      startDate: "23 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/dpM2DVO0lUI?si=qxRKkgJr0jTKwW5m",
+  },
+  {
+    SLNo: "7",
+    _id: "Computer Fundamental",
+    title: "Computer Fundamental & Troubleshooting Training",
+    subtitle: "Course Features",
+    des: `The main objective of this course is to introduce the fundamentals of computing devices and reinforce computer vocabulary, particularly with respect to personal use of computer hardware and software, the Internet, networking and mobile computing. It focuses on such computer literacy that prepares students for life-long learning of computer concepts and skills. Students discovers why computers are essential components in education, business and society in this course.`,
+    price: { regularPrice: "10000", discountPrice: "2000" },
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "CF-B1-003",
+        classRoutine: [
+          {
+            day: "Sun",
+          },
+          {
+            day: "Tue",
+          },
+          {
+            day: "Thu",
+          },
+        ],
+        classStart: "03:00 PM - 06:00 PM",
+        classType: "Online",
+        totalClass: "15",
+        courseDuration: "2 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "22 Jan,25",
+      startDate: "23 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/dpM2DVO0lUI?si=qxRKkgJr0jTKwW5m",
+  },
+  {
+    SLNo: "8",
+    _id: "Certified Oracle",
+    title: "Certified Oracle Database Administration DBA 19C Course",
+    subtitle: "Course Features",
+    des: `Are you looking to skill up yourself in Oracle Database Administration certification course? Then our certified course on oracle database administration is for you! Our oracle training & certification course approach to mastering Oracle DBA concepts, techniques, and best practices. As the best oracle training & certification, you will get hands-on training with an updated course module and an Industry Expert mentor for becoming a certified oracle database professional in Bangladesh. This Oracle DBA training course is an intensive hands-on course designed to provide Oracle professionals with an in-depth understanding of the DBA features of Oracle, specific Oracle concepts and knowledge required for the OCP exam, and tips and techniques for passing the Oracle OCP exam on your first attempt.`,
+    price: { regularPrice: "30000", discountPrice: "18000" },
+    courseFeature: [
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "Course duration is 4 months",
+      },
+
+      {
+        name: "32+ Live Class",
+      },
+      {
+        name: "Total 100 Hours",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "ORACLE DBA-B1-016",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+          ,
+        ],
+        classStart: "03:00 PM - 06:00 PM",
+        classType: "Online, Offline",
+        totalClass: "33",
+        courseDuration: "5 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "22 Jan,25",
+      startDate: "23 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/dpM2DVO0lUI?si=qxRKkgJr0jTKwW5m",
+  },
+  {
+    SLNo: "9",
+    _id: "Data Analytics",
+    title: "Data Analytics",
+    subtitle: "Course Features",
+    des: `This course provides a comprehensive introduction to the field of data analytics. It is designed for individuals who are interested in learning about the tools, techniques, and methodologies used to analyze large datasets and extract meaningful insights. By the end of the course, students will be equipped with the knowledge and skills necessary to apply data analytics in real-world scenarios, making them valuable assets in any industry that relies on data-driven decision making. Whether you’re a beginner looking to start a career in data analytics or a professional seeking to enhance your skills, this course offers a solid foundation in this rapidly growing field.`,
+    price: { regularPrice: "20000", discountPrice: "12000" },
+    courseFeature: [
+      {
+        name: "Income and Freelancing Guidelines",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+
+      {
+        name: "Total 60 Hours",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "Course duration is 3 months",
+      },
+      {
+        name: "26+ Live Classes",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "DAT-B1-001",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+          ,
+        ],
+        classStart: "10:00 AM - 12:00 PM",
+        classType: "Online, Offline",
+        totalClass: "16",
+        courseDuration: "2 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "24 Jan,25",
+      startDate: "25 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/dpM2DVO0lUI?si=qxRKkgJr0jTKwW5m",
+  },
+  {
+    SLNo: "10",
+    _id: "Certified Training",
+    title:
+      "Certified Training Course on Software Testing and Quality Assurance",
+    subtitle: "Course Features",
+    des: `Are you passionate about software testing and quality assurance? Our course on software testing & quality assurance can be your best choice. The "Software Testing and Quality Assurance" training course at PeopleNTech provides participants with comprehensive insights into the principles and practices of software testing. Covering a range of topics from testing methodologies to quality assurance processes, this course equips individuals with the skills needed to ensure the delivery of high-quality software products.`,
+    price: {
+      regularPrice: "30000",
+      discountPrice: "18000",
+      installment: "2 installment",
+    },
+    courseFeature: [
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Course duration is 3 months",
+      },
+
+      {
+        name: "Total 72 Hours",
+      },
+      {
+        name: "24+ Live Classes",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "ST&QA-B1-022",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+          ,
+        ],
+        classStart: "10:00 AM - 1:00 PM",
+        classType: " Offline",
+        totalClass: "24",
+        courseDuration: "3 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "24 Jan,25",
+      startDate: "25 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/LbpLes10SOQ?si=oCJXLqyB35g-VEpL",
+  },
+  {
+    SLNo: "11",
+    _id: "IT Security & Ethical Hacking",
+    title: "IT Security & Ethical Hacking",
+    subtitle: "Course Features",
+    des: `Do you want to grow your career as a certified ethical Hacker? Then PeopleNTech can be the best choice for you. Our professional ethical hacking training course will provide you with all the essential skills that will help you become a certified ethical hacker. Ethical Hacking is a worldwide growing sector. The cybersecurity job market in Bangladesh is projected to grow by 30% in 2024, driven by sectors like banking, finance, and government. Many national companies in Bangladesh are still unaware of the risks of being hacked. After completing this professional training on cyber security, you can get a job in both local and international companies. Our experienced mentors & job placement department will prepare you to begin your as a certified ethical hacker.`,
+    price: {
+      regularPrice: "15000",
+      discountPrice: "12000",
+      installment: "2 installment",
+    },
+    courseFeature: [
+      {
+        name: "Total 40 Hours",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Course duration is 3 months",
+      },
+
+      {
+        name: "Total 72 Hours",
+      },
+      {
+        name: "24+ Live Classes",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "CSS-04 (CEH PART)",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+          ,
+        ],
+        classStart: "06:30 PM - 09:30 PM",
+        classType: " Offline",
+        totalClass: "14",
+        courseDuration: "2 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "24 Jan,25",
+      startDate: "25 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/LbpLes10SOQ?si=oCJXLqyB35g-VEpL",
+  },
+  {
+    SLNo: "12",
+    _id: "Cisco Certified",
+    title: "Cisco Certified Network Associate & MikroTik Administration",
+    subtitle: "Course Features",
+    des: `Are you ready to embark on a journey towards becoming a certified Cisco networking professional? Look no further! At PeopleNTech, we offer an unparalleled learning experience to help you master the essentials of networking through our comprehensive CCNA training.`,
+    price: {
+      regularPrice: "20000",
+      discountPrice: "12000",
+      installment: "2 installment",
+    },
+    courseFeature: [
+      {
+        name: "Total 40 Hours",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Course duration is 3 months",
+      },
+
+      {
+        name: "Total 72 Hours",
+      },
+      {
+        name: "24+ Live Classes",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "CCNA & MIKROTIK 49 BATCH",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+          ,
+        ],
+        classStart: "09:00 PM - 01:00 PM",
+        classType: " Offline",
+        totalClass: "20",
+        courseDuration: "5 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "24 Jan,25",
+      startDate: "25 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/LbpLes10SOQ?si=oCJXLqyB35g-VEpL",
+  },
+  {
+    SLNo: "13",
+    _id: "Data Analytics",
+    title: "Data Analytics",
+    subtitle: "Course Features",
+    des: `This course provides a comprehensive introduction to the field of data analytics. It is designed for individuals who are interested in learning about the tools, techniques, and methodologies used to analyze large datasets and extract meaningful insights. By the end of the course, students will be equipped with the knowledge and skills necessary to apply data analytics in real-world scenarios, making them valuable assets in any industry that relies on data-driven decision making. Whether you’re a beginner looking to start a career in data analytics or a professional seeking to enhance your skills, this course offers a solid foundation in this rapidly growing field.`,
+    price: {
+      regularPrice: "20000",
+      discountPrice: "12000",
+      installment: "2 installment",
+    },
+    courseFeature: [
+      {
+        name: "Total 40 Hours",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Recorded video",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Job Placement Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Course duration is 3 months",
+      },
+
+      {
+        name: "Total 72 Hours",
+      },
+      {
+        name: "24+ Live Classes",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "DATA ANALYSIS -B1-001",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+          ,
+        ],
+        classStart: "10:00 PM - 12:00 PM",
+        classType: " Online,Offline",
+        totalClass: "30",
+        courseDuration: "3 Month",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "24 Jan,25",
+      startDate: "25 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/LbpLes10SOQ?si=oCJXLqyB35g-VEpL",
+  },
+  {
+    SLNo: "14",
+    _id: "Post Graduate ",
+    title: "Post Graduate Diploma in Cyber Security",
+    subtitle: "Course Features",
+    des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
+    price: { regularPrice: "700000", discountPrice: "100000" },
+    courseFeature: [
+      {
+        name: "Income and Freelancing Guidelines",
+      },
+      {
+        name: "Tools, templates and book suggestions",
+      },
+      {
+        name: "Online and Offline Support",
+      },
+      {
+        name: "Assessment and Certificate",
+      },
+      {
+        name: "Job Placement Support",
+      },
+    ],
+    registration: [
+      {
+        name: "Registration",
+        href: "/login",
+      },
+      {
+        name: "Join Free Seminars",
+        href: "/seminars",
+      },
+    ],
+    classDetails: {
+      batch: {
+        batchName: "PGDCSS-B1-005",
+        classRoutine: [
+          {
+            day: "Fri",
+          },
+          {
+            day: "Sat",
+          },
+        ],
+        classStart: "10:00 AM - 1:00 PM",
+        classType: "Offline",
+        totalClass: "120",
+        courseDuration: "1 Year",
+      },
+    },
+    details: {
+      title: "For details about the course",
+      contact: "Call Now (0179-944-6655)",
+    },
+    button: {
+      name: "Enroll Now",
+      href: "/login",
+    },
+    date: {
+      endDate: "17 Jan,25",
+      startDate: "18 Jan,25",
+    },
+    videoLink: "https://www.youtube.com/embed/sOkq4S6_e_c?si=ob1IOcX66jI2MV6n",
+  },
+];
 export const footerArray = {
   webBio: {
     images: FooterLogo,
