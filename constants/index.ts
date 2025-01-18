@@ -1336,7 +1336,12 @@ export const upComingBatchArray = [
             day: "Sat",
           },
         ],
-        classStart: "07:00 AM - 10:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: "10:00 PM",
+          },
+        ],
         classType: "Offline",
         totalClass: "120",
         courseDuration: "12 Month",
@@ -1401,7 +1406,12 @@ export const upComingBatchArray = [
             day: "Sat",
           },
         ],
-        classStart: "10:00 AM - 1:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Offline",
         totalClass: "120",
         courseDuration: "1 Year",
@@ -1457,7 +1467,12 @@ export const upComingBatchArray = [
             day: "Thu",
           },
         ],
-        classStart: "07:00 PM - 10:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Offline",
         totalClass: "120",
         courseDuration: "1 Year",
@@ -1535,7 +1550,12 @@ export const upComingBatchArray = [
             day: "Wed",
           },
         ],
-        classStart: "07:00 PM - 9:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Online",
         totalClass: "30",
         courseDuration: "3 Month",
@@ -1610,7 +1630,12 @@ export const upComingBatchArray = [
             day: "Thu",
           },
         ],
-        classStart: "07:00 PM - 9:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Online",
         totalClass: "30",
         courseDuration: "3 Month",
@@ -1685,7 +1710,12 @@ export const upComingBatchArray = [
             day: "Thu",
           },
         ],
-        classStart: "07:00 PM - 9:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Online",
         totalClass: "30",
         courseDuration: "3 Month",
@@ -1736,7 +1766,12 @@ export const upComingBatchArray = [
             day: "Thu",
           },
         ],
-        classStart: "03:00 PM - 06:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Online",
         totalClass: "15",
         courseDuration: "2 Month",
@@ -1812,7 +1847,12 @@ export const upComingBatchArray = [
           },
           ,
         ],
-        classStart: "03:00 PM - 06:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Online, Offline",
         totalClass: "33",
         courseDuration: "5 Month",
@@ -1894,7 +1934,12 @@ export const upComingBatchArray = [
           },
           ,
         ],
-        classStart: "10:00 AM - 12:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Online, Offline",
         totalClass: "16",
         courseDuration: "2 Month",
@@ -1978,7 +2023,12 @@ export const upComingBatchArray = [
           },
           ,
         ],
-        classStart: "10:00 AM - 1:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: " Offline",
         totalClass: "24",
         courseDuration: "3 Month",
@@ -2064,7 +2114,12 @@ export const upComingBatchArray = [
           },
           ,
         ],
-        classStart: "06:30 PM - 09:30 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: " Offline",
         totalClass: "14",
         courseDuration: "2 Month",
@@ -2150,7 +2205,12 @@ export const upComingBatchArray = [
           },
           ,
         ],
-        classStart: "09:00 PM - 01:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: " Offline",
         totalClass: "20",
         courseDuration: "5 Month",
@@ -2236,7 +2296,12 @@ export const upComingBatchArray = [
           },
           ,
         ],
-        classStart: "10:00 PM - 12:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: " Online,Offline",
         totalClass: "30",
         courseDuration: "3 Month",
@@ -2301,7 +2366,12 @@ export const upComingBatchArray = [
             day: "Sat",
           },
         ],
-        classStart: "10:00 AM - 1:00 PM",
+        classStart: [
+          {
+            StTime: "07:00 AM-",
+            EndTime: " 10:00 PM",
+          },
+        ],
         classType: "Offline",
         totalClass: "120",
         courseDuration: "1 Year",
