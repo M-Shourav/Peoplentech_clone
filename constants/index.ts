@@ -1294,7 +1294,7 @@ export const upComingBatchArray = [
     Whether you're looking to enhance your career or enter the 
     cybersecurity field, this cybersecurity diploma in Bangladesh offers 
     a strong foundation for success in the fast-growing industry.`,
-    price: { regularPrice: "70000", discountPrice: "100000" },
+    price: { regularPrice: "100000", discountPrice: "70000" },
     courseFeature: [
       {
         name: "",
@@ -1367,7 +1367,7 @@ export const upComingBatchArray = [
     title: "Post Graduate Diploma in Cyber Security",
     subtitle: "Course Features",
     des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
-    price: { regularPrice: "70000", discountPrice: "100000" },
+    price: { regularPrice: "100000", discountPrice: "70000" },
     courseFeature: [
       {
         name: "Income and Freelancing Guidelines",
@@ -1437,7 +1437,7 @@ export const upComingBatchArray = [
     title: "PGD in Microsoft Web Application Development",
     subtitle: "Course Features",
     des: `The Post Graduate Diploma in Microsoft Web Application Development at PeopleNTech is an exceptional program designed for those seeking to excel in web technologies. This course offers a Professional Microsoft Web Development course with ASP.NET, that equips students with the skills needed to create dynamic and responsive web applications. With a strong emphasis on practical learning, the Professional Microsoft Web Application Development with ASP.NET course provides comprehensive Microsoft web application development training covering essential frameworks, tools, and best practices. By enrolling in this post-graduate diploma in ASP.NET development training, students will gain valuable experience and knowledge to thrive in the competitive field of web application development, preparing them for exciting career opportunities in the tech industry`,
-    price: { regularPrice: "60000", discountPrice: "100000" },
+    price: { regularPrice: "100000", discountPrice: "60000" },
     courseFeature: [
       {
         name: "",
@@ -1661,7 +1661,7 @@ export const upComingBatchArray = [
     title: "Online Training on Creative Graphics Design with Freelancing",
     subtitle: "Course Features",
     des: `Creative Graphic Design is one of the most demanded skills now-a-days. With a massive expansion of Digital Marketing, graphical presentation became an important part of all online marketing campaigns.`,
-    price: { regularPrice: "4999", discountPrice: "20000" },
+    price: { regularPrice: "20000", discountPrice: "4999" },
     courseFeature: [
       {
         name: "Income and Freelancing Guidelines",
@@ -2327,7 +2327,7 @@ export const upComingBatchArray = [
     title: "Post Graduate Diploma in Cyber Security",
     subtitle: "Course Features",
     des: `Are you interested & thrilled in Cyber Security Career? Here Post Graduate Diploma in Cyber Security course of PeopleNTech can be the best choice for you. Our Post Graduate Diploma in Cyber Security Training Course is a comprehensive, one-year program designed to equip students with the essential skills and knowledge to tackle the evolving challenges of the digital world. If you are looking for a Cybersecurity course in Bangladesh, This course focuses on safeguarding networks, systems, and sensitive data from cyber threats. Recognized as the best cyber security course in Bangladesh, we provide hands-on experience in risk management, cryptography, and ethical hacking. Whether you're looking to enhance your career or enter the cybersecurity field, this cybersecurity diploma in Bangladesh offers a strong foundation for success in the fast-growing industry.`,
-    price: { regularPrice: "700000", discountPrice: "100000" },
+    price: { regularPrice: "100000", discountPrice: "70000" },
     courseFeature: [
       {
         name: "Income and Freelancing Guidelines",
