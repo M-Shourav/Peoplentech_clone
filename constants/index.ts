@@ -1421,11 +1421,6 @@ export const upComingBatchArray = [
     subtitle: "Course Features",
     des: `The Post Graduate Diploma in Microsoft Web Application Development at PeopleNTech is an exceptional program designed for those seeking to excel in web technologies. This course offers a Professional Microsoft Web Development course with ASP.NET, that equips students with the skills needed to create dynamic and responsive web applications. With a strong emphasis on practical learning, the Professional Microsoft Web Application Development with ASP.NET course provides comprehensive Microsoft web application development training covering essential frameworks, tools, and best practices. By enrolling in this post-graduate diploma in ASP.NET development training, students will gain valuable experience and knowledge to thrive in the competitive field of web application development, preparing them for exciting career opportunities in the tech industry`,
     price: { regularPrice: "100000", discountPrice: "60000" },
-    courseFeature: [
-      {
-        name: "",
-      },
-    ],
     registration: [
       {
         name: "Registration",
