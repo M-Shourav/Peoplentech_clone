@@ -21,7 +21,6 @@ export default function Home() {
       <Seminars />
       <OurConcerns />
       <OurClients />
-      <ScrollButton />
     </div>
   );
 }
