@@ -27,4 +27,7 @@ body {
       #ffffff 20px
     );
   }
+  .scrollBarHide::-webkit-scrollbar {
+    display: none;
+  }
 }

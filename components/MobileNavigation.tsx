@@ -16,7 +16,7 @@ const MobileNavigation = () => {
     <div className="inline-flex lg:hidden">
       <button
         onClick={handleHamburger}
-        className="text-3xl font-semibold hover:text-lightSky duration-300"
+        className="text-3xl font-semibold hover:text-lightSky duration-300 scrollBarHide"
       >
         <IoMenuSharp />
       </button>
@@ -24,8 +24,8 @@ const MobileNavigation = () => {
         onClick={handleHamburger}
         className={`${
           isOpen
-            ? "fixed top-0 left-0 w-[85%] h-screen px-6 py-4 bg-white z-50 duration-1000 ease-in-out"
-            : "fixed top-0 left-[-100%] duration-1000 ease-in-out"
+            ? " fixed top-0 left-0 w-[85%] h-screen px-6 py-4 bg-white z-50 duration-1000 ease-in-out"
+            : "fixed top-0 left-[-100%] duration-1000 ease-in-out "
         }`}
       >
         <div className="w-full h-screen flex flex-col items-start gap-y-10">
@@ -57,7 +57,7 @@ const MobileNavigation = () => {
               </div>
             ))}
             <Link
-              href={"/"}
+              href={"/login"}
               className="text-[15px] font-semibold flex items-center justify-center
              gap-1 border border-lightSky rounded-md w-20 h-8
              hover:bg-lightSky hover:text-white duration-300"

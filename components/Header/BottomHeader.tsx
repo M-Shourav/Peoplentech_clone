@@ -80,7 +80,7 @@ const BottomHeader = () => {
             </div>
           ))}
           <Link
-            href={"/"}
+            href={"/login"}
             className="text-[15px] font-semibold flex items-center
              gap-1 border border-lightSky rounded-md px-2 py-1.5
              hover:bg-lightSky hover:text-white duration-300"
