@@ -5,7 +5,6 @@ import Facilities from "@/components/Facilities";
 import HeroSection from "@/components/HeroSection";
 import OurClients from "@/components/OurClients";
 import OurConcerns from "@/components/OurConcerns";
-import ScrollButton from "@/components/ScrollButton";
 import Seminars from "@/components/Seminars";
 import SuccessStory from "@/components/SuccessStory";
 
