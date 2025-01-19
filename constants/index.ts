@@ -1279,7 +1279,7 @@ export const upComingBatchArray = [
   {
     SLNo: "1",
     _id: "PGD in Network System Administration",
-    title: "	PGD in Network System Administration",
+    title: "PGD in Network System Administration",
     subtitle: "Course Features",
     des: `Are you interested & thrilled in Cyber Security Career? 
     Here Post Graduate Diploma in Cyber Security course of PeopleNTech

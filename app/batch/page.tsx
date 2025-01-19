@@ -87,8 +87,8 @@ const BatchPage = () => {
                       <div className="col-span-4">
                         <Link
                           href={{
-                            pathname: `/courses/${item?._id}`,
-                            query: { id: item?._id },
+                            pathname: `/courses/${item?.SLNo}`,
+                            query: { id: item?.SLNo },
                           }}
                           target="_blank"
                           className="text-sm md:text-base font-medium hover:text-blue-600 duration-300"
