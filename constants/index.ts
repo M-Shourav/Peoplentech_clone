@@ -1295,23 +1295,6 @@ export const upComingBatchArray = [
     cybersecurity field, this cybersecurity diploma in Bangladesh offers 
     a strong foundation for success in the fast-growing industry.`,
     price: { regularPrice: "100000", discountPrice: "70000" },
-    courseFeature: [
-      {
-        name: "",
-      },
-      {
-        name: "",
-      },
-      {
-        name: "",
-      },
-      {
-        name: "",
-      },
-      {
-        name: "",
-      },
-    ],
     registration: [
       {
         name: "Registration",

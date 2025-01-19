@@ -47,10 +47,8 @@ const SingleCoursePage = () => {
           <div className="w-full">
             <iframe
               src={data?.videoLink}
-              width={800}
-              height={500}
               loading="lazy"
-              className=" rounded-md"
+              className=" rounded-md w-full h-[300px] md:h-[500px] object-contain"
               allowFullScreen
             />
           </div>
@@ -61,7 +59,7 @@ const SingleCoursePage = () => {
             </p>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full md:w-1/2">
           <div className="w-full border border-gray-300 p-3 rounded-md">
             <Title className="md:text-xl">{data?.subtitle}</Title>
             <div className="mt-5">
@@ -107,7 +105,7 @@ const SingleCoursePage = () => {
           </div>
           <div
             className="w-full flex flex-col items-center justify-between
-           border border-gray-300 p-3 gap-y-2 rounded-md"
+           border border-gray-300 p-3 mt-5 gap-y-2 rounded-md"
           >
             <Title className="md:text-3xl text-red-500 text-center">
               {data?.details.title}
